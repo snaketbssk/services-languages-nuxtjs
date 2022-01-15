@@ -1,0 +1,876 @@
+{
+  "common": {
+    "filters": "Filtro",
+    "only": "Solamente",
+    "noData": "No hay datos disponibles"
+  },
+  "header": {
+    "menu": {
+      "forInvestorPage": "Para inversionistas",
+      "forTraderPage": "Para especuladores bursátiles",
+      "newsPage": "Noticias",
+      "referralPage": "Programa de afiliación",
+      "makePull": "Depositar",
+      "personalCab": "Gabinete personal"
+    },
+    "adminMenu": {
+      "btn": "Panel de administración",
+      "dashboardPage": "Dashboard",
+      "usersPage": "Usuarios",
+      "pullsPage": "Pools"
+    },
+    "cabinetMenu": {
+      "btn": "Área de usuarios",
+      "profilePage": "Perfil",
+      "securityPage": "Seguridad",
+      "verificationPage": "Verificación",
+      "walletsPage": "Cuentas",
+      "referralPage": "Programa de referencia",
+      "pullsPage": "Pools",
+      "logoutBtn": "Salir",
+      "depositBtn": "Abonar",
+      "detail": "Panel de administración"
+    },
+    "loginBtn": "Entrar",
+    "registerBtn": "Empezar"
+  },
+  "indexPage": {
+    "section1": {
+      "title": "Plataforma para especuladores e inversionistas con el sistema de interacción flexible.",
+      "text": "A los especuladores bursátiles no les conviene trabajar con montos pequeños, por lo tanto este modo de ganar dinero no es una opción para la mayoría de los interesados. El sistema funciona a base de los pools en los cuales los inversionistas menoristas se unen para obtener la oportunidad de entregar sus activos para ser administrados.",
+      "registerBtn": "Empezar",
+      "loginBtn": "Entrar",
+      "chip": "En desarrollo"
+    },
+    "section2": {
+      "title": "Tres formas para generar ingresos pasivos",
+      "card1": {
+        "title": "Fijo",
+        "subtitle": "Staking de los activos a partir de 48-96% anual",
+        "text": "No es ningún secreto que uno de los mercados más justos a día de hoy es la especulación en la bolsa de criptomonedas. Uno puede obtener ganancia de mucho más que un 96% anual."
+      },
+      "card2": {
+        "title": "Profesional",
+        "subtitle": "para inversionistas con nervios de acero.",
+        "text": "Puede ver el proceso de subasta completo en tiempo real, con sus altas y bajas. Honestidad y transparencia absoluta donde los resistentes al estrés ganan al máximo. "
+      },
+      "card3": {
+        "title": "Interés sobre el saldo",
+        "subtitle": "0,0137% diarios, retiro instantáneo.",
+        "text": "5% anual sobre el saldo. Cálculo diario. Un monedero de criptomonedas en el cual los activos se multiplican por si solos."
+      }
+    },
+    "section3": {
+      "title": "Sea el especulador bursátil en la plataforma.",
+      "card1": {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      "card2": {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      },
+      "card3": {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+      }
+    },
+    "section4": {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur deserunt inventore iste quas. Adipisci alias ducimus, eveniet molestiae mollitia odit qui quia quis quos recusandae reiciendis unde voluptatem voluptatum!",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur deserunt inventore iste quas. Adipisci alias ducimus, eveniet molestiae mollitia odit qui quia quis quos recusandae reiciendis unde voluptatem voluptatum!"
+    }
+  },
+  "forTraderPage": {
+    "section1": {
+      "title": "Sea el especulador bursátil en la plataforma.",
+      "text1": "Tiene experiencia positiva de la venta en el mercado de criptomonedas",
+      "text2": "Puedes:",
+      "text2List": {
+        "item1": "Probar con hechos reales",
+        "item2": "Proporcionar el historial de la subasta de una cuenta real a partir de un año y más. ",
+        "item3": "Certificar la calificación del especulador con un diploma "
+      },
+      "text3": "Entonces no dude más y pinche el botón ",
+      "btn": "Aplicar"
+    },
+    "section2": {
+      "title": "Condiciones de la decisión favorable ",
+      "card1": {
+        "title": "Certificaciones de calificación",
+        "text": "Diploma en educación superior para ciencias económicas o certificado de cursos para la venta en mercados de divisas y bolsa de valores. "
+      },
+      "card2": {
+        "title": "2. Cuenta bursátil",
+        "text": "Disponer de la cuenta activa en una de las bolsas de criptomonedas del rango superior o en la bolsa de valores, o por lo menos una cuenta Forex (entendemos perfectamente que tipo de mecanismo es este, pero si lograste ganar en Forex con una cuenta real y no la de demostración, entonces estás listo para el juego limpio).  Estar preparado mostrar en tiempo real el historial de transacciones durante los últimos 12 meses. "
+      },
+      "card3": {
+        "title": "3. Activos circulantes",
+        "text": "Para confirmar su calificación necesitamos entender ante todo con qué montos había trabajado anteriormente. Por ejemplo, si antes había trabajado con los montos que no sobrepasen 100,000 $, no podemos permitir que trabaje con el monto de 1,000,000 $. Para aumentar los activos circulantes usamos la siguiente fórmula: "
+      }
+    }
+  },
+  "forInvestorPage": {
+    "section1": {
+      "title": "Pools",
+      "text": "Crecimiento de los activos en una cuenta y la corriente constante de las inversiones puede convertir cualquier fondo en la figura más “estable” en el planeta. Esta plataforma no es fondo, sino un servicio donde los intereses se suman desde el momento de la creación y el envío del “Pool” a la cuenta bursátil. Con todo, el especulador nada más tiene el acceso para efectuar las transacciones sin la posibilidad de retiros."
+    }
+  },
+  "forPartnersPage": {
+    "title": "Programa de referencia:",
+    "info": {
+      "title": "También puede obtener remuneración por:",
+      "reward1": "Un video filmado y publicado en YouTube con el hashtag #cryptoniex.io donde se vea la ganancia, se agrega 10 dólares en el depósito. Si en el video se ve su cara, se agrega 20 dólares. El canal tiene que tener un mínimo de 1000 suscriptores reales. El video grabado en un idioma extranjero le suma 50% a la remuneración establecida en este párrafo. ",
+      "reward2": "Video reseña del proyecto donde se ve su cara suma 25 dólares al depósito. El canal tiene que tener un mínimo de 1000 suscriptores reales. El video grabado en un idioma extranjero le suma 50% a la remuneración establecida en este párrafo. ",
+      "reward3": "Publicación en su página de Facebook, VKontakte, Odnoklassninki, LinkedIn o Instagram  de la información sobre el proyecto le suma 5 dólares al depósito. El canal tiene que tener un mínimo de 200 suscriptores reales. Publicación en un idioma extranjero le suma 50% a la remuneración establecida en este párrafo. ",
+      "reward4": "Creación del tema en el foro con la reseña positiva de la compañía le suma 5 dólares al depósito (la remuneración puede ser mayor dependiendo del foro donde el tema fue creado). El tema creado en un foro o thread extranjero le suma 50% a la remuneración establecida en este párrafo.",
+      "attention": "Atención!",
+      "attention1": "Un participante puede cumplir con los requisitos de los párrafos 1, 2 máximo una vez a la semana. ",
+      "attention2": "Un participante puede cumplir con el párrafo 4 no más que 1 vez al día. ",
+      "attention3_1": "Aplicaciones para el retiro de Bounty y enlaces al trabajo realizado pueden ser enviados al correo electrónico.  ",
+      "attention3_2": "Si en los materiales del programa de remuneración enviados hay infracciones de la ley o de nuestras reglas el gerente tiene el derecho de rechazarlos.  "
+    }
+  },
+  "cabinetPages": {
+    "profilePage": {
+      "title": "Tu perfil",
+      "labels": {
+        "login": "Login"
+      },
+      "cards": {
+        "verification": {
+          "title": "Verificación",
+          "btn": "Pasar verificación "
+        },
+        "level": {
+          "title": "Nivel del perfil",
+          "btn": "Cómo subir el nivel?"
+        }
+      }
+    },
+    "securityPage": {
+      "title": "Seguridad de la cuenta",
+      "passwordChange": {
+        "title": "Cambio de contraseña",
+        "labels": {
+          "oldPassword": "Contraseña anterior",
+          "newPassword": "Contraseña nueva ",
+          "repeatNewPassword": "Escribir contraseña nueva otra vez"
+        },
+        "btn": "Cambiar contraseña",
+        "infoText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet, animi autem beatae illum itaque nobis quidem quis sequi, vel velit voluptate. Cumque incidunt necessitatibus neque nisi officiis reprehenderit velit?"
+      },
+      "tfa": {
+        "title": "Autenticación en dos fases"
+      },
+      "activeSessions": {
+        "title": "Sesiones activas"
+      }
+    },
+    "verificationPage": {
+      "title": "Verificación de la cuenta",
+      "text": "Para verificación completa de la cuenta es necesario pasar todos los métodos",
+      "email": {
+        "title": "Autenticación con correo electrónico",
+        "btn": "Verificar"
+      },
+      "phone": {
+        "title": "\nAutenticación con número de teléfono",
+        "btn": "En desarrollo"
+      },
+      "documents": {
+        "title": "Verificación de identidad ",
+        "btn": "En desarrollo"
+      }
+    },
+    "referralPage": {
+      "title": "Programa de referencia",
+      "linkText": "Su enlace de referencia",
+      "receivedText": "Total cobrado con el programa de referencia",
+      "tableText": "Sus referidos",
+      "level": "Nivel {level}",
+      "statistics": "Estadística",
+      "registerCountTitle": "Personas registradas con su enlace ",
+      "registerCount": "Usuarios",
+      "profitPercentTitle": "Interés actual ganado en el programa de referencia"
+    },
+    "pullsPage": {
+      "title": "Depósitos realizados",
+      "btn": "Depósito nuevo",
+      "profit": "Ganancia total",
+      "todayProfit": "Ganancia de hoy",
+      "deposit": "Depósito principal",
+      "pullsAmount": "En Pools ahora",
+      "warning": "Estará disponible después de cerrar los grupos"
+    },
+    "walletsPage": {
+      "title": "Sus cuentas",
+      "depositBtn": "Abonar",
+      "withdrawalBtn": "Retirar",
+      "error": "Error al cargar los datos. Por favor, reinicie la página"
+    },
+    "depositPage": {
+      "title": "Abono de la cuenta {currencyCode}",
+      "attention": {
+        "title": "Atención",
+        "text": "Envíe el monto exacto indicado en la aplicación. El abono se hace solamente al indicar el ID de la transacción",
+        "text2": "Tiempo reglamentado del abono de criptomoneda -  60 minutos máximos.",
+        "text3": "Si ha encontrado un problema contacte el soporte técnico.  "
+      }
+    },
+    "transactionsPage": {
+      "title": "Transacciones de la cuenta {currencyCode}",
+      "tabs": {
+        "deposits": "Abono de la cuenta",
+        "withdrawals": "Retiro de la cuenta"
+      }
+    },
+    "withdrawalPage": {
+      "title": "Transacciones de la cuenta {currencyCode}",
+      "form": {
+        "address": "Dirección del monedero",
+        "sendAmount": "Monto a enviar",
+        "totalAmount": "Monto a cargar",
+        "btn": "Crear aplicación",
+        "notEnoughMoney": "Fondos insuficientes para retiro",
+        "allAvailable": "Disponible para cargar",
+        "willBeSpentHint": "{fee} {currencyCode} - comisión por transferencia"
+      },
+      "info": {
+        "title": "Atención!",
+        "minAmount": "Monto de retiro mínimo",
+        "maxAmount": "Monto de retiro máximo",
+        "fee": "Comisión por transacción",
+        "noAdditionalFee": "Al aumentar la cantidad de retiro, la Comisión no cambia"
+      },
+      "error": "Error al cargar los datos. Por favor, reinicie la página.",
+      "successNotification": "La confirmación del retiro fue enviada a su correo electrónico. ¡Por favor, ingrese a su correo y confirme la operación! "
+    },
+    "invoicePage": {
+      "title": "Aplicación {invoiceId}",
+      "attention": {
+        "title": "Atención",
+        "text": "Envie el monto exacto indicado en la aplicación. El abono se hace solamente al indicar el ID de la transacción  (TxID).",
+        "text2": "Tiempo reglamentado del abono de criptomoneda -  60 minutos máximos.",
+        "text3": "Si ha encontrado un problema contacte el soporte técnico."
+      },
+      "errors": {
+        "notFound": {
+          "text": "La aplicación no fue cargada",
+          "btn": "Cargar otra vez"
+        }
+      }
+    },
+    "PullDepositPage": {
+      "returnBtn": "Regresar a mis Pools",
+      "step1": "Seleccione el Pool para depositar",
+      "step1Hint": "Haga clic en la tarjeta para seleccionar ",
+      "step2": "2. Depositar",
+      "step2Hint": "Todos los campos son obligatorios",
+      "balanceError": "Error al cargar la cuenta",
+      "addPull": "Seleccionar grupo de contribución"
+    },
+    "CabinetRequestsTfaConnect": {
+      "success": "Autenticación en dos fases activada exitosamente",
+      "error": "Error al activar autenticación en dos fases",
+      "errorBtn": "Intentar otra vez"
+    },
+    "CabinetRequestsEmailVerification": {
+      "success": "¡Correo electrónico de su cuenta ha sido verificado con éxito! ",
+      "error": "Error al verificar correo electrónico",
+      "errorBtn": "Intentar otra vez"
+    },
+    "CabinetRequestsPasswordChange": {
+      "success": "¡Correo electrónico de su cuenta ha sido verificado con éxito! ",
+      "successHelp1": "¡Correo electrónico de su cuenta ha sido verificado con éxito! ",
+      "successHelp2": "¡Correo electrónico de su cuenta ha sido verificado con éxito! ",
+      "error": "Error al cambiar la contraseña",
+      "errorBtn": "Intentar otra vez"
+    },
+    "CabinetRequestsWithdrawal": {
+      "title": "Aplicación de retiro",
+      "id": "ID aplicaciones",
+      "address": "Dirección de destinatario",
+      "sent": "Monto a enviar",
+      "spent": "Monto a cargar en cuenta",
+      "error": "Error al cargar los datos"
+    }
+  },
+  "authPages": {
+    "loginPage": {
+      "title": "Entrar en cuenta",
+      "forgotPasswordBtn": "¿Olvidó la contraseña? ",
+      "registerBtn": "Cuenta no existe",
+      "loginFromBtn": "Entrar con",
+      "errors": {
+        "loginError": "Error al entrar. Por favor, reinicie la página."
+      }
+    },
+    "registerPage": {
+      "title": "Registrarse",
+      "loginBtn": "Ya tengo la cuenta",
+      "successRegisterMessage": "Registración exitosa ",
+      "errors": {
+        "registerError": "Error al entrar. Por favor, reinicie la página."
+      }
+    },
+    "AuthRestoreConfirmPage": {
+      "title": "Restablecer acceso a la cuenta ",
+      "successNotification": "Contraseña de la cuenta cambiada exitosamente"
+    },
+    "AuthRestorePage": {
+      "title": "Restablecer acceso a la cuenta",
+      "successNotification": "Las instrucciones para restablecer el acceso a la cuenta han sido enviados a su correo electrónico"
+    }
+  },
+  "adminPages": {
+    "pullsPage": {
+      "title": "Pools",
+      "createPullBtn": "Crear nuevo"
+    },
+    "newPullPage": {
+      "title": "Crear pool nuevo",
+      "successNotification": "Creado con éxito"
+    },
+    "editPullPage": {
+      "title": "Editar pool",
+      "savedMessage": "Guardado",
+      "error": {
+        "notFound": {
+          "text": "Pool no se cargó",
+          "btn": "Cargar otra vez"
+        }
+      }
+    },
+    "botsPage": {
+      "title": "Bots",
+      "btn": "Bot nuevo"
+    },
+    "newBotPage": {
+      "step1": "Seleccione pool",
+      "step1Hint": "Haga clic en la tarjeta para seleccionar ",
+      "step2": "2. Crear bot",
+      "successNotification": "Bot creado con éxito"
+    },
+    "AdminTraderRequestPage": {
+      "title": "Aplicación especulador"
+    },
+    "AdminTradersRequests": {
+      "title": "Aplicaciones de los especuladores"
+    },
+    "AdminUsersPage": {
+      "title": "Usuarios del sistema"
+    },
+    "AdminWithdrawalsPage": {
+      "title": "Aplicaciones de retiro"
+    }
+  },
+  "general": {
+    "cookieDialog": {
+      "text": "Este sitio web usa los cookies para optimizar su experiencia. Usando nuestro sitio Ud. da su consentimiento para el uso de cookies. ",
+      "btn": "Bién"
+    },
+    "pullCard": {
+      "status": {
+        "all": "todo",
+        "Created": "Recaudación de fondos",
+        "Process": "En trabajo",
+        "Closed": "Cerrado",
+        "Canceled": "Cancelado",
+        "search": "Búsqueda por estado",
+        "tap": "Haga clic para seleccionar",
+        "percent": "Porcentaje de ganancias"
+      },
+      "types": {
+        "all": "Todos",
+        "Level1": "Trimestrales",
+        "Level2": "Semianuales",
+        "Level3": "Anuales",
+        "Level4": "Profesionales"
+      },
+      "minDepositAmount": "desde {amount} {currencyCode}",
+      "months": "{months} meses ",
+      "days": "{days} días",
+      "profitabilityPer30Days": "{profitabilityPer30Days}% Durante 30 días",
+      "depositBtn": "Depositar",
+      "mediumTime": "Tiempo promedio de ensamblar pool - 3 días ",
+      "lastDeposit": "Último depósito en este pool",
+      "closedStatus": "Cerrado para depósito",
+      "detail": "a",
+      "detail-one": "bajo"
+    },
+    "pullDepositDialog": {
+      "title": "Depósito",
+      "successMessage": "Depósito efectuado con éxito"
+    },
+    "pullDepositForm": {
+      "balanceBtnTitle": "Su saldo",
+      "balanceBtnText": "Depositar todo",
+      "amountText": "Monto del depósito",
+      "receiveAfterText": "Recibirá al final",
+      "feeText": "Comisión por depósito",
+      "submitBtn": "Hacer depósito",
+      "input": "Hacer una aportación"
+    },
+    "pullInfo": {
+      "sentBefore": "Su depósito",
+      "minSendAmount": "Monto mínimo de depósito",
+      "maxSendAmount": "Monto máximo de depósito",
+      "duration": "Periodo de depósito",
+      "toStartAmount": "a la izquierda hasta el comienzo"
+    },
+    "depositCard": {
+      "status": {
+        "Created": "Registrar transacción",
+        "Pending": "Procesando",
+        "Canceled": "Cancelada",
+        "Error": "Error",
+        "Confirmed": "Confirmada"
+      },
+      "createdStatusAttention": {
+        "text": "Transacción en estado de espera de abono de fondos",
+        "btn": "Abonar fondos"
+      }
+    },
+    "invoiceCreateForm": {
+      "amount": "Monto de abono",
+      "btn": "Crear aplicación",
+      "error": "Error al crear la aplicación"
+    },
+    "walletCard": {
+      "depositBtn": "Abonar",
+      "withdrawalBtn": "Retirar",
+      "txBtn": "Transacciones",
+      "createBtn": "Crear cuenta"
+    },
+    "invoiceAutoUpdateForm": {
+      "refreshAfter": "Actualización en ",
+      "counter": "segundos"
+    },
+    "invoiceCard": {
+      "status": "Estado de aplicación",
+      "address": "Dirección de abono",
+      "amount": "Monto de abono",
+      "copySuccessMessage": "Copiado",
+      "copyErrorMessage": "Error al copiar"
+    },
+    "invoiceSendTxForm": {
+      "txId": "ID Transacciones",
+      "btn": "Aboné"
+    },
+    "loginForm": {
+      "username": "Su login y correo electrónico",
+      "password": "Su contraseña",
+      "btn": "Entrar",
+      "code": "Código con Google Authenticator"
+    },
+    "registerForm": {
+      "email": "Su correo electrónico",
+      "login": "Su login",
+      "password": "Su contraseña",
+      "repeatPassword": "Escribir contraseña otra vez",
+      "btn": "Registrarse",
+      "error": {
+        "alreadyHasAccount": "Cuenta actual ya existe"
+      }
+    },
+    "alertNeedAuth": {
+      "text": "Para depositar es necesario entrar en la cuenta o registrarse ",
+      "loginBtn": "Entrar",
+      "registerBtn": "Registrarse"
+    },
+    "alertNeedWalletCreate": {
+      "text": "Para depositar es necesario crear cuenta en su área de usuarios y abonarla  ",
+      "btn": "Crear cuenta"
+    },
+    "newPoolForm": {
+      "title": "Nombre de pool",
+      "type": "Tipo de pool",
+      "typePlaceholder": "Elegir tipo de pool",
+      "duration": "Tiempo de trabajo de pool (días)",
+      "investorProfitPercent": "Interés de ganancia del inversionista al mes",
+      "minTxAmount": "Monto mínimo de depósito",
+      "minStartAmount": "Monto mínimo para comenzar pool",
+      "maxStartAmount": "Monto máximo para empezar el pool",
+      "investorFeePercent": "Porciento de comisión del inversionista al depositar",
+      "btn": "Crear"
+    },
+    "pullEditForm": {
+      "isActive": "Visibilidad para inversionistas",
+      "btn": "Guardar"
+    },
+    "pullAdminCard": {
+      "visible": "Visible",
+      "notVisible": "No visible",
+      "realTotalAmount": "Depósitos reales",
+      "investorProfitPercent": "Interés de inversionista",
+      "minTxAmount": "Monto mínimo de depósito",
+      "duration": "Tiempo de trabajo",
+      "usersCount": "Cantidad de usuarios",
+      "botsCount": "Cantidad de bots",
+      "btn": "Acciones",
+      "mediumTime": "Último depósito en el pool"
+    },
+    "pullAdminCardActions": {
+      "analyticsBtn": "Analítica",
+      "editBtn": "Editar",
+      "txEditBtn": "Manejo de depósitos"
+    },
+    "botCard": {
+      "status": {
+        "active": "Activo",
+        "notActive": "Inactivo"
+      },
+      "pullName": "Pool {name}"
+    },
+    "botCreateForm": {
+      "label": {
+        "amount": "Cuanto llenar",
+        "maxAmount": "Monto máximo de una transacción ",
+        "activateAfter": "Activar inmediatamente después de la creación"
+      },
+      "submitBtn": "Crear"
+    },
+    "PullAdminChangeStatusForm": {
+      "statusLabel": "Estado del pool",
+      "btn": "Cambiar el estado"
+    },
+    "TraderRequestCard": {
+      "adminComment": "Comentario del administrador ",
+      "btn": "Más detalles"
+    },
+    "TraderRequestEditForm": {
+      "label": {
+        "email": "Email",
+        "name": "Nombre",
+        "surname": "Apellido",
+        "adminComment": "Comentario del administrador "
+      },
+      "btn": "Guardar"
+    },
+    "AdminWithdrawalCard": {
+      "btn": "Más detalles"
+    },
+    "AdminWithdrawalInfoDialog": {
+      "title": "Aplicación del retiro #{id}",
+      "label": {
+        "amount": "Monto del retiro",
+        "address": "Dirección",
+        "status": "Estado de la aplicación",
+        "createdAt": "Fecha de creación de la aplicación",
+        "paidAt": "Fecha de confirmación del pago",
+        "id": "Id de solicitud",
+        "ok": "Confirmar",
+        "no": "Cancelar"
+      }
+    },
+    "RestoreConfirmForm": {
+      "newPassword": "Contraseña nueva",
+      "repeatNewPassword": "Confirme contraseña nueva",
+      "btn": "Restablecer"
+    },
+    "RestoreForm": {
+      "email": "Correo electrónico de la cuenta",
+      "btn": "Restablecer"
+    },
+    "PasswordChangeCard": {
+      "successNotification": "Las instrucciones para restablecer el acceso a la cuenta han sido enviados a su correo electrónico"
+    },
+    "TfaCard": {
+      "hasTfaAlert": "Ud. ya activó la autenticación de dos fases "
+    },
+    "TfaConnectCard": {
+      "secret": "Clave secreta",
+      "qrCodeError": "Error al generar el código QR para Google Authenticator",
+      "successNotification": "Las instrucciones para activar la autenticación de dos fases han sido enviados a su correo electrónico "
+    },
+    "TfaConnectForm": {
+      "code": "Código de Google Authenticator",
+      "btn": "Activar",
+      "error": "Error al generar la aplicación de la autenticación de dos fases. Por favor, contacte con soporte técnico"
+    },
+    "PullDepositCancelDialog": {
+      "title": "Cancelación del depósito",
+      "question": "¿Está seguro de que quiere cancelar todos sus depósitos en este pool? ",
+      "yesBtn": "Sí, estoy seguro",
+      "noBtn": "No",
+      "successNotification": "Todos los depósitos en este pool han sido cancelados con éxito. ¡Los fondos fueron reembolsados a su saldo!",
+      "error": "Error al cancelar los depósitos "
+    },
+    "UserPullCard": {
+      "contributedText": "Su depósito",
+      "tillStart": "queda hasta comienzo",
+      "lastDeposit": "Último depósito en este pool",
+      "actionsBtn": "Acciones",
+      "cancelBtn": "Cancelar depósito",
+      "closedText": "Cerrado para depósitar"
+    },
+    "ReferralBanner1": {
+      "dimensions": "Dimensiones del banner",
+      "copyBtn": "Copiar",
+      "copied": "Copiado",
+      "error": "Error al copiar"
+    },
+    "ReferralInviteMethods": {
+      "hint": "¡Enlace sin periodo de vigencia! Si una persona usa su enlace por primera vez y luego usa el enlace ajeno, nada más la visita desde su enlace va a ser tomada en cuenta. ",
+      "bannerHint": "Use cualquiera de los banners abajo para invitar a referidos. Pulse Copiar para obtener el código para publicar en su sitio web o blog.  ",
+      "banner1": "Banner 1",
+      "banner2": "Banner 2",
+      "copied": "Copiado",
+      "error": "Error al copiar"
+    },
+    "UserReferralsDataTable": {
+      "fromLoginUser": "Login",
+      "amount": "Ganado",
+      "createdAt": "Fecha de registración"
+    },
+    "EmailVerificationCard": {
+      "verified": "Verificado",
+      "successNotification": "Las instrucciones para verificar su correo electrónico  han sido enviados a su correo electrónico",
+      "error": "Error al generar la aplicación de la verificación "
+    },
+    "BalanceStatusCards": {
+      "all": "Total en la cuenta",
+      "available": "Disponible para operaciones",
+      "inPulls": "Ahora en depósitos"
+    },
+    "DepositDeleteDialog": {
+      "title": "Eliminar la aplicación",
+      "question": "¿Está seguro de que Ud. quiere eliminar?",
+      "yesBtn": "Sí",
+      "noBtn": "No",
+      "successNotification": "La aplicación ha sido eliminada con éxito",
+      "error": "Error al eliminar la aplicación"
+    },
+    "UserDepositTransactions": {
+      "error": "Error al cargar las transacciones"
+    },
+    "UserWithdrawalTransactions": {
+      "error": "Error al cargar las transacciones"
+    },
+    "WithdrawalCard": {
+      "sent": "Enviado",
+      "fee": "Comisión",
+      "btn": "Más detalles "
+    },
+    "ProfileLevel": {
+      "toNext": "Hasta siguiente"
+    },
+    "ReferralProgress": {
+      "fromAmount": "desde {amount} {currencyCode}",
+      "level": "Nivel",
+      "currentLevel": "Su nivel actual",
+      "youReceive": "Ud. recibe {percent}% de la comisión por cada depósito de su referido "
+    },
+    "BecomeTraderDialog": {
+      "title": "Aplicar",
+      "successNotification": "¡Su aplicación ha sido enviada con éxito! Le contactaremos en la brevedad posible "
+    },
+    "BecomeTraderForm": {
+      "email": "Su correo electrónico",
+      "phone": "Su teléfono",
+      "name": "Su nombre",
+      "surname": "Su apellido",
+      "description": "Cuente sobre Ud.",
+      "btn": "Enviar ",
+      "error": "Error al enviar la aplicación"
+    },
+    "ActiveSessionsCard": {
+      "btn": "Desactivar todas las sesiones"
+    },
+    "ActiveSessionsDataTable": {
+      "actionBtn": "Desactivar",
+      "currentLabel": "Actual",
+      "header": {
+        "lastLoginAt": "Última entrada",
+        "OS": "Sistema operativo",
+        "device": "Dispositivo",
+        "browser": "Navegador",
+        "remoteIpAddress": "Dirección IP"
+      }
+    },
+    "NewPullCard": {
+      "days": "{Days} días",
+      "depositBtn": "Invertir",
+      "cancelBtn": "Cancelar contribución",
+      "mediumTime": "Tiempo promedio de recolección de la piscina de 3 días",
+      "lastDeposit": "La Última contribución a este grupo",
+      "minAmount": "Inversión mínima",
+      "noDepositsMsg": "Usted puede ser el primero!",
+      "capturedAmount": "Montado",
+      "leftAmount": "Hasta el Inicio queda"
+    }
+  },
+  "footer": {
+    "policy": "Política de privacidad",
+    "cookies": "Política de cookies"
+  },
+  "policyRules": {
+    "first": "Cryptoniex (en adelante, la \"Compañía\") toma en serio la seguridad de los datos personales de los clientes y la preservación de la información confidencial.",
+    "second": "Para evitar la pérdida de información, su mal uso, modificación y acceso no autorizado a ella por parte de terceros, la Compañía cumple con todos los requisitos, tanto organizativos como técnicos, es decir, realiza regularmente inspecciones, pruebas y otras actividades necesarias.",
+    "three": "La compañía respeta su derecho a la privacidad. Esta Política de privacidad (en adelante, la \"Política\") determina qué datos personales se recopilan del sitio web de la Compañía, así como de otros recursos y aplicaciones que se relacionan con él. Esta Política no se aplica a los sitios que pertenecen a otras empresas y terceros. Esta Política también explica el uso de los datos personales recibidos cuando utiliza los servicios y productos de la Compañía a través de la comunicación por Teléfono, correo electrónico u otros medios. Esta Política le informa sobre la información que recopila la Compañía, a quién se proporciona y para qué fines, cómo la Compañía la protege y qué derechos tiene para preservar la privacidad de la información.",
+    "four": "Qué datos personales recopila la Empresa y para qué fines",
+    "five": "Los datos personales que la Empresa puede recopilar pertenecen a una de las siguientes categorías:",
+    "six": "Información que se proporciona voluntariamente",
+    "seven": "Puede proporcionar a la Empresa información de identificación, contacto, financiera y de otra índole por Teléfono al completar formularios en línea o enviar cuestionarios por correo electrónico, al iniciar sesión en su cuenta Personal o de cualquier otra manera disponible para la Empresa. También todos los datos personales que usted proporcione en los casos en que:",
+    "list": {
+      "one": "utilizar los productos o servicios de la Empresa;",
+      "two": "registre su cuenta Personal en el sitio web de la Compañía;",
+      "three": "suscribirse a las publicaciones de la Compañía o publicaciones de terceros relacionadas con la Compañía;",
+      "four": "acepta recibir materiales promocionales y correos;",
+      "five": "participa en concursos, programa de lealtad Cryptoniex, promociones especiales o encuestas;",
+      "six": "dejar comentarios"
+    },
+    "eight": "На отдельных страницах сайта могут запрашиваться персональные данные, которые вы при желании можете предоставить, при этом вы будете четко проинформированы о том, какие именно персональные данные от вас требуются.",
+    "nine": "Información que la Empresa recopila automáticamente",
+    "ten": "Al visitar el sitio web de la Empresa, cierta información (por ejemplo, su dirección IP, tipo de dispositivo, tipo de navegador y otros) se envía automáticamente desde sus dispositivos. En algunas jurisdicciones, incluidos los países de la Unión Europea, dicha información puede considerarse personal de acuerdo con ciertas regulaciones de protección de datos.",
+    "eleven": "La compañía también obtiene información sobre cómo su dispositivo interactuó con el sitio, incluidas las páginas visitadas y los clics en los enlaces. La recopilación de esta información permite a la Empresa analizar las solicitudes de los visitantes y Clientes para mejorar la calidad de los 3 productos proporcionados en",
+    "twelve": "Política de cookies.",
+    "thirteen": "Раскрытие персональных данных",
+    "fourteen": "La compañía puede revelar sus datos personales a las siguientes categorías de personas:",
+    "list-two": {
+      "one": "Un grupo de empresas que incluye a la Empresa, proveedores de servicios y socios que proporcionan servicios de procesamiento de datos a la Empresa (por ejemplo, mantienen el funcionamiento, la seguridad del sitio web de la Empresa) o procesan los datos personales de otra manera para los fines descritos en esta Política.",
+      "two": "Las autoridades competentes encargadas de hacer cumplir la ley, las organizaciones reguladoras o gubernamentales, los tribunales u otros terceros en el marco de la legislación vigente.",
+      "three": "Cualquier otra persona con su consentimiento."
+    },
+    "fifteen": "La compañía utiliza sus datos personales para los siguientes fines:",
+    "list-three": {
+      "one": "1. Proporcionar Servicio al cliente",
+      "two": "Tipo de datos:",
+      "three": "información de identificación (nombre, apellido, país de residencia, dirección y otra información similar), datos de contacto (dirección de correo electrónico, número de Teléfono, página web y otros), copias e imágenes de documentos nacionales de identificación (pasaporte, documento de identificación, permiso de residencia y otros), información financiera (número de cuenta bancaria, número de tarjeta bancaria y nombre de su titular, documentos de origen del dinero y otros), documentos de relevancia política.",
+      "four": "Цель:",
+      "five": "¡Gracias por registrarte! Sabemos que nuestro Servicio es nuevo e inexplorado para usted. Para que no se confunda, le ayudaremos.",
+      "six": "Bueno",
+      "seven": "cumplimiento del acuerdo del Cliente, cumplimiento de los requisitos legales.",
+      "eight": "2. Gestión de riesgos, prevención del lavado de dinero, respuesta regulatoria y legal",
+      "nine": "transaccional, financiero, de identificación.",
+      "ten": "cumplir con la legislación vigente; detectar, investigar, prevenir el lavado de dinero; responder a las reclamaciones; proporcionar información a las autoridades gubernamentales pertinentes en los casos definidos por la ley. Recopilación de información necesaria para cumplir con las leyes y combatir el blanqueo de dinero, incluida la información \"Know Your Client\" (conozca a su cliente); información relacionada con sanciones internacionales u otras medidas restrictivas, así como información sobre acciones ilegales y políticas del cliente potencial que pueden influir en la decisión de la Compañía de cooperar con el cliente.",
+      "eleven": "cumplimiento legal.",
+      "twelve": "3. Marketing",
+      "thirteen": "contactos, consentimiento y correspondencia.",
+      "fourteen": "actividades de marketing y suministro de información sobre los productos y servicios de la Empresa.",
+      "fifteen": "cumplimiento del acuerdo del Cliente",
+      "sixteen": "contactos, consentimiento y correspondencia."
+    },
+    "list-four": {
+      "one": "El cliente tiene derecho:",
+      "two": "Enviar una solicitud para corregir información inexacta y/o complementar cualquier información personal incompleta. La compañía procesará la solicitud de corrección de sus datos personales y notificará a los terceros a los que dicha información personal podría haber sido transferida, de acuerdo con las reglas de la Política. Negarse a recibir información de marketing enviada por la Empresa a sus clientes",
+      "three": "Exigir que la Empresa deje de procesar datos personales. La denegación del procesamiento de datos personales puede interferir con el uso de algunos productos y servicios para los cuales el procesamiento de datos personales es necesario.",
+      "four": "Retirar su consentimiento para el tratamiento de datos personales en cualquier momento, sin que la renuncia al tratamiento de datos personales afecte a la legalidad del tratamiento de datos que se haya dado previamente consentimiento. La revocación del consentimiento puede impedir el uso de ciertas funciones del Servicio de la Compañía para las cuales se requiere el procesamiento de datos personales.",
+      "five": "Exigir a la Empresa que elimine todos los datos personales personales. La compañía lo eliminará a menos que haya una razón legítima para no hacerlo."
+    },
+    "sixteen": "Medidas de seguridad actuales de la Empresa",
+    "seventeen": "La compañía aplica todas las medidas técnicas y organizativas necesarias para proteger todos los datos personales que recopila y procesa. Las medidas implementadas proporcionan un nivel de seguridad que corresponde a los riesgos asociados con el procesamiento de datos personales. En particular, la Empresa:",
+    "list-five": {
+      "one": "Almacena datos personales en servidores seguros",
+      "two": "Utiliza enlaces cifrados para transferir datos en la medida de lo posible en los casos en que sea necesario.",
+      "three": "Aplica otras medidas de seguridad: firewalls, sistemas de autenticación (por ejemplo, contraseñas) y mecanismos de control de acceso para evitar el acceso no autorizado a sistemas y datos",
+      "four": "Revisa periódicamente los procesos de recopilación, almacenamiento y procesamiento de datos, incluidas las medidas de seguridad física, para proteger contra el acceso no autorizado a los sistemas.",
+      "five": "Restringe el acceso a los datos personales a los empleados de la Empresa, las contrapartes y los agentes que necesitan conocer dicha información para su procesamiento y están sujetos a estrictas obligaciones contractuales de confidencialidad."
+    },
+    "eighteen": "Transferencia internacional de datos",
+    "nineteen": "Bajo ciertas condiciones, la Compañía tiene el derecho de transferir sus datos personales a un tercero en otro país para su posterior procesamiento de acuerdo con los objetivos establecidos en 5 de esta Política. En algunos casos, esto puede incluir la transferencia de datos a países que no ofrecen el mismo nivel de protección que las leyes de su país de residencia. En tales casos, la Compañía, de acuerdo con los requisitos legales, garantiza que sus derechos de privacidad estarán debidamente protegidos por las medidas técnicas, organizadas, contractuales u otras medidas legales apropiadas. Esto incluye la celebración de acuerdos de transferencia de datos personales dentro del grupo de empresas del que forma parte la Compañía que requieren que todos los socios protejan los datos personales que procesan de acuerdo con las leyes de protección de datos aplicables.",
+    "twenty": "Almacenamiento de datos",
+    "part-two": {
+      "one": "Sus datos personales se almacenan durante el tiempo que sean necesarios para el cumplimiento de los propósitos establecidos en esta Política (a menos que la ley requiera su almacenamiento a más largo plazo).",
+      "two": "Toma de decisiones automática",
+      "three": "En algunos casos, el uso por parte de la Compañía de sus datos personales puede dar lugar a decisiones automáticas (incluidos los perfiles) que lo afectan legalmente o que tienen un impacto importante en usted de otra naturaleza.",
+      "four": "Una decisión automática es una decisión sobre usted, tomada automáticamente sobre la base de un cálculo computarizado (utilizando algoritmos de software), sin control humano.",
+      "five": "En los casos en que se tome una decisión automática, usted tiene el derecho de impugnar esta decisión y solicitar una revisión de la decisión por parte del empleado de la Compañía."
+    }
+  },
+  "cookiesRules": {
+    "one": "Política de cookies de la Compañía",
+    "two": "Este documento define las condiciones de uso de las cookies en el sitio web de la Compañía, explica el propósito del uso de las cookies y determina los derechos de los usuarios para modificar y definir las reglas de uso de las cookies a su discreción.",
+    "three": "Las cookies son necesarias para proporcionar y mejorar la calidad de los servicios en línea proporcionados por la Empresa, así como para garantizar la confidencialidad de la información proporcionada por el usuario y su procesamiento en forma adecuada. Alpari toma todas las medidas de seguridad necesarias para evitar el acceso no autorizado, la divulgación, la modificación o la eliminación no autorizada de la información proporcionada por los clientes a través de las cookies.",
+    "four": "¿Qué son las cookies?",
+    "five": "Una cookie es un pequeño archivo de texto que se almacena en su computadora u otro dispositivo utilizado cuando visita el sitio. Un archivo de texto contiene información que se utiliza para proporcionar a los visitantes del sitio un Servicio de mejor calidad.",
+    "six": "¿Qué cookies se utilizan en el sitio web de Cryptoniex?",
+    "list": {
+      "one": "Utilizamos los siguientes tipos de cookies:",
+      "two": "Obligatorios.",
+      "three": "Estas cookies son necesarias para el funcionamiento del sitio. Estos incluyen, por ejemplo, cookies que le permiten iniciar sesión en partes seguras del sitio y utilizar la funcionalidad básica del sitio.",
+      "four": "Analítica / de Servicio.",
+      "five": "Estas cookies proporcionan información acerca de qué fines y con qué frecuencia se utiliza el sitio web de la Empresa, qué grupos de usuarios existen, qué herramientas de búsqueda se utilizan. Las estadísticas sobre las cookies también se pueden obtener de terceros.",
+      "six": "Con destinación especial.",
+      "seven": "Estas cookies recuerdan sus visitas al sitio web de la Empresa (qué páginas ha visitado, a qué enlaces se ha accedido). La compañía utiliza esta información para analizar los intereses de los usuarios del sitio."
+    },
+    "seven": "¿Cómo deshabilito las cookies?",
+    "eight": "Si no desea que las cookies se utilicen en sus dispositivos, puede cambiar la configuración de seguridad de su navegador. Tenga en cuenta que, dependiendo del tipo de navegador, la configuración de seguridad puede variar, y debe configurarla por separado para cada navegador. Si bloquea todas las cookies de su navegador (incluidas las obligatorias), es posible que todo el sitio o parte de él no esté disponible para usted.",
+    "nine": "Para obtener más información sobre las cookies y cómo gestionarlas en su navegador, puede visitar el sitio web"
+  },
+  "pullSelector": {
+    "one": "Su contribución:",
+    "two": "Inicio a través de"
+  },
+  "pathToProfi": {
+    "one": "¡Gracias por registrarte! Sabemos que nuestro Servicio es nuevo e inexplorado para usted. Para que no te confundas, te ayudaremos.",
+    "two": "Bueno",
+    "three": "No Mostrar este banner",
+    "four": "Los primeros pasos! Al pasar por ellos, se convertirá en un usuario avanzado del Servicio. Haga clic en los elementos de la lista para una referencia rápida",
+    "five": "1. Verifique su dirección de correo electrónico",
+    "six": "2. Conectar autenticación de dos factores",
+    "seven": "3. Crear una cuenta",
+    "eight": "4. Hacer el primer depósito",
+    "nine": "5. Hacer la primera contribución",
+    "ten": "6. Invitar al primer usuario"
+  },
+  "guides": {
+    "email": {
+      "one": "Instrucciones de verificación de correo electrónico",
+      "two": "Vaya al punto \"Verificación\" en su cuenta personal.",
+      "three": "Ir a la verificación",
+      "four": "En el bloque \"Verificación de dirección de correo electrónico\", haga clic en\"Verificar\". Recibirá un correo electrónico a su dirección de correo electrónico con un enlace en el que debe hacer clic para completar la operación.",
+      "five": "Como resultado de ir al sitio de origen, verá una notificación que indica que la cuenta se ha verificado correctamente."
+    },
+    "pull": {
+      "one": "¿Cómo hacer una contribución?",
+      "two": "Haga clic en el botón en la cabecera del sitio \"hacer una contribución\". O haga clic en",
+      "three": "Hacer la primera contribución",
+      "four": "Seleccione el grupo al que desea contribuir",
+      "five": "Ingrese el monto del depósito y haga clic en\"contribuir\"",
+      "six": "Tan pronto como se acumule suficiente cantidad de depósitos en el grupo, se iniciará. Los fondos que ha invertido en el grupo se transferirán de su cuenta a los comerciantes."
+    },
+    "referal": {
+      "one": "Cómo invitar a un usuario al Servicio",
+      "two": "Vaya al elemento \"programa de Referencia\" en su cuenta personal.",
+      "three": "Ir a la página",
+      "four": "Copie su enlace de referencia y envíelo al usuario. Para que sea incluido por su referencia, se requiere el registro del usuario a través de su enlace",
+      "five": "También puede colocar un banner en su blog o página. Cuando un usuario haga clic en este banner y luego se registre, también se considerará su referencia",
+      "six": "Usted recibirá un porcentaje de la Comisión por los depósitos del usuario",
+      "seven": "Si el usuario invitado tiene preguntas, trate de ayudarlo con el desarrollo del Servicio"
+    },
+    "tfa": {
+      "one": "Instrucciones de conexión de verificación de dos factores",
+      "two": "Instale Google Authenticator en su dispositivo.",
+      "three": "Vaya al punto \"Seguridad\" en su cuenta personal.",
+      "four": "Ir a la seguridad",
+      "five": "En la página, abra la sección verificación de dos factores",
+      "six": "Escanee el código QR que aparece.",
+      "seven": "Importante!",
+      "eight": "No olvides guardar la clave privada. Nunca se lo entreguen a nadie. Con él, siempre tiene la oportunidad de restaurar la generación de códigos para confirmar las operaciones en el Servicio.",
+      "nine": "Ingrese el código de la aplicación Google Authenticator y haga clic en el botón Conectar",
+      "ten": "Se enviará un correo electrónico a su correo con un enlace en el que deberá ir para confirmar esta operación"
+    },
+    "wallet": {
+      "one": "Instrucciones para crear una cuenta",
+      "two": "Vaya al punto \"Cuentas\" en su cuenta personal.",
+      "three": "Ir a la página",
+      "four": "La cuenta se crea automáticamente cuando se navega a la página. Espere hasta que lo vea en la pantalla"
+    },
+    "deposit": {
+      "one": "Instrucciones de recarga",
+      "two": "Vaya al punto \"Cuentas\" en su cuenta personal.",
+      "three": "Ir a la página",
+      "four": "Haga clic en el botón \"recargar\"",
+      "five": "Ingrese la cantidad que desea recargar y haga clic En \"crear solicitud\"",
+      "six": "Envíe exactamente la cantidad especificada a la dirección especificada",
+      "seven": "Después del envío, copie el ID de transacción (TXN ID), péguelo en el cuadro y haga clic en\"he completado\"",
+      "eight": "Espere hasta que su aplicación sea verificada y ejecutada por el sistema"
+    }
+  },
+  "additional": {
+    "one": "Por el momento, usted no está en ningún grupo, abra una página para los inversores que conectaría el grupo.",
+    "two": "A la página para los inversores"
+  }
+}

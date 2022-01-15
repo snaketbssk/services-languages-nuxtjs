@@ -1,0 +1,876 @@
+{
+  "common": {
+    "filters": "Filtering",
+    "only": "Only",
+    "noData": "Data is missing"
+  },
+  "header": {
+    "menu": {
+      "forInvestorPage": "For investors",
+      "forTraderPage": "For traders",
+      "newsPage": "News",
+      "referralPage": "Affiliate program",
+      "makePull": "Make pull",
+      "personalCab": "Personal Cab"
+    },
+    "adminMenu": {
+      "btn": "Admin Panel",
+      "dashboardPage": "Dashboard",
+      "usersPage": "Users",
+      "pullsPage": "Pools"
+    },
+    "cabinetMenu": {
+      "btn": "Personal account",
+      "profilePage": "Profile",
+      "securityPage": "Security",
+      "verificationPage": "Verification",
+      "walletsPage": "Accounts",
+      "referralPage": "Referral Program",
+      "pullsPage": "Pools",
+      "logoutBtn": "Log out",
+      "depositBtn": "Make a deposit",
+      "detail": "Admin Panel"
+    },
+    "loginBtn": "Log in",
+    "registerBtn": "Start"
+  },
+  "indexPage": {
+    "section1": {
+      "title": "A platform for traders and investors with a flexible interaction system",
+      "text": "It is not profitable for professional traders to work with small amounts, and therefore this method of earning is closed to most people who want to. The system works on the principle of pools, where retail investors in the fold get the opportunity to give their assets to management.",
+      "registerBtn": "Start",
+      "loginBtn": "Log in",
+      "chip": "In development"
+    },
+    "section2": {
+      "title": "Three ways for passive earnings",
+      "card1": {
+        "title": "Fixed",
+        "subtitle": "asset staking from 48-96% per annum",
+        "text": "It's no secret that today one of the fairest markets for earnings is speculation on the cryptocurrency exchange, where you can earn much more than 96% per year."
+      },
+      "card2": {
+        "title": "Professional",
+        "subtitle": "for investors with iron nerves",
+        "text": "You fully see the trading process in real time. Here you can see not only a plus, but also a minus. Absolute honesty and transparency, where the most stress-resistant get the maximum."
+      },
+      "card3": {
+        "title": "Interest on the balance",
+        "subtitle": "0.0137% per day, instant withdrawal",
+        "text": "5% per annum on the balance. The calculation takes place daily. A cryptocurrency wallet in which assets multiply by themselves."
+      }
+    },
+    "section3": {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "card1": {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deserunt earum in magnam obcaecati officiis placeat praesentium quas sit sunt. Beatae culpa dolore est explicabo harum id nemo vero, voluptate?"
+      },
+      "card2": {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deserunt earum in magnam obcaecati officiis placeat praesentium quas sit sunt. Beatae culpa dolore est explicabo harum id nemo vero, voluptate?"
+      },
+      "card3": {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At deserunt earum in magnam obcaecati officiis placeat praesentium quas sit sunt. Beatae culpa dolore est explicabo harum id nemo vero, voluptate?"
+      }
+    },
+    "section4": {
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "text1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur deserunt inventore iste quas. Adipisci alias ducimus, eveniet molestiae mollitia odit qui quia quis quos recusandae reiciendis unde voluptatem voluptatum!",
+      "text2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consectetur deserunt inventore iste quas. Adipisci alias ducimus, eveniet molestiae mollitia odit qui quia quis quos recusandae reiciendis unde voluptatem voluptatum!"
+    }
+  },
+  "forTraderPage": {
+    "section1": {
+      "title": "Become a trader platform",
+      "text1": "You Have a positive trading experience on the cryptocurrency market?",
+      "text2": "You can:",
+      "text2List": {
+        "item1": "show it not only in words but in deeds",
+        "item2": "provide a history of trading a real account from a year or more",
+        "item3": "potuerit qualification trader diploma"
+      },
+      "text3": "Then feel free to click on the button",
+      "btn": "Apply"
+    },
+    "section2": {
+      "title": "Conditions that contribute to making a positive decision",
+      "card1": {
+        "title": "1. Documents confirming the qualification",
+        "text": "A diploma of higher professional education in the field of economics or a certificate of completion of additional courses on trading on the currency and stock markets."
+      },
+      "card2": {
+        "title": "2. Exchange account",
+        "text": "The presence of a valid account on one of the top cryptocurrency exchanges, or on the stock exchange, in extreme cases-a forex account (we perfectly understand what this\\ \"kitchen \\\" is, but if you were able to earn a real non-demo account on forex, then you are cool and ready for fair play). Be ready to show in real time the history of transactions for the last 12 months or more."
+      },
+      "card3": {
+        "title": "3. Current assets",
+        "text": "To approve your qualifications, we will first need to understand what amounts you have already had work experience with. For example, if you have previously worked with a maximum of $ 100,000, then we cannot allow you to work with an amount of $ 1,000,000. To increase current assets, we use the formula:"
+      }
+    }
+  },
+  "forInvestorPage": {
+    "section1": {
+      "title": "Pools",
+      "text": "The multiplication of assets in the conditions of a single account and an endless stream of investments can turn any fund into the most\"stable\" figure on earth. This platform is not a fund, but a service where interest accrual begins with the formation and sending of a \\ \"Pool\\\" to an exchange account. Also, the trader only has access to make transactions, without the possibility of withdrawing your funds."
+    }
+  },
+  "forPartnersPage": {
+    "title": "Referral program",
+    "info": {
+      "title": "you can also get the reward for:",
+      "reward1": "For captured video and published on YouTube with the hashtag #cryptoniex.io shown with profit plus $ 10 Deposit for the video is the same with a person plus $ 20. There must be at least 1000 real subscribers on the channel. For a video in a foreign language, plus 50% of the remuneration provided for in this section.",
+      "reward2": "For a video review of the project with a face showing, $ 25 is added to the deposit. There must be at least 1000 real subscribers on the channel. For videos in a foreign language, plus 50% of the remuneration provided for in this section.",
+      "reward3": "For publishing information about the project on your Facebook page or in contact or in odnoklassniki, or in linkedin or Instagram or telegram, $ 5 to the deposit. There must be at least 200 real subscribers on the page. For publications in a foreign language, plus 50% of the remuneration provided for in this section.",
+      "reward4": "For creating a topic on the forum with a positive mention of the company, $ 5 is added to the deposit (the reward may be more, since it depends on which forum you created the topic on). For creating a topic on a foreign forum or a foreign branch, plus 50% of the remuneration provided for in this section.",
+      "attention": "Pay attention!",
+      "attention1": "One participant can perform program items 1, 2 and 3 no more than once a week.",
+      "attention2": "One participant can perform item 4 no more than 1 time a day.",
+      "attention3_1": "You can send applications for receiving Bounty payments and links to the work done to E-mail",
+      "attention3_2": "In case of violation of the law or our rules, the manager may reject the materials sent for work in the incentive program."
+    }
+  },
+  "cabinetPages": {
+    "profilePage": {
+      "title": "Your profile",
+      "labels": {
+        "login": "Login"
+      },
+      "cards": {
+        "verification": {
+          "title": "Verification",
+          "btn": "Pass verification"
+        },
+        "level": {
+          "title": "Profile level",
+          "btn": "How to increase it?"
+        }
+      }
+    },
+    "securityPage": {
+      "title": "the Security of your account",
+      "passwordChange": {
+        "title": "Change password",
+        "labels": {
+          "oldPassword": "Old password",
+          "newPassword": "New password",
+          "repeatNewPassword": "Repeat new password"
+        },
+        "btn": "Change password",
+        "infoText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet, animi autem beatae illum itaque nobis quidem quis sequi, vel velit voluptate. Cumque incidunt necessitatibus neque nisi officiis reprehenderit velit?"
+      },
+      "tfa": {
+        "title": "Two-factor authentication"
+      },
+      "activeSessions": {
+        "title": "Active sessions"
+      }
+    },
+    "verificationPage": {
+      "title": "Account verification",
+      "text": "For full account verification, you need to go through all the methods",
+      "email": {
+        "title": "mail address verification",
+        "btn": "Verify"
+      },
+      "phone": {
+        "title": "Verification by phone number",
+        "btn": "Under development"
+      },
+      "documents": {
+        "title": "Identity verification",
+        "btn": "Under development"
+      }
+    },
+    "referralPage": {
+      "title": "Referral program",
+      "linkText": "Your referral link",
+      "receivedText": "the referral program",
+      "tableText": "Your referall",
+      "level": "Level {level}",
+      "statistics": "Statistics",
+      "registerCountTitle": "your link checked",
+      "registerCount": "{number} users",
+      "profitPercentTitle": "Current percentage of earnings on the referral program"
+    },
+    "pullsPage": {
+      "title": "Contributions you have made",
+      "btn": "New contribution",
+      "profit": "Total earned",
+      "todayProfit": "Earned today",
+      "deposit": "Deposit / Deposit body",
+      "pullsAmount": "Now in pools",
+      "warning": "It will become available after the pools are closed"
+    },
+    "walletsPage": {
+      "title": "Your accounts",
+      "depositBtn": "Top up",
+      "withdrawalBtn": "Withdraw",
+      "error": "An error occurred while uploading data. Please reload the page"
+    },
+    "depositPage": {
+      "title": "Replenishment of {currencyCode} account",
+      "attention": {
+        "title": "Attention",
+        "text": "Send exactly the amount specified in the application. Replenishment occurs only after specifying the transaction ID (TxID).",
+        "text2": "The regulated time for crediting cryptocurrency is up to 60 minutes.",
+        "text3": "If you have any difficulties, please contact technical support."
+      }
+    },
+    "transactionsPage": {
+      "title": "Transactions on {currencyCode} account",
+      "tabs": {
+        "deposits": "Deposits to the account",
+        "withdrawals": "Withdrawals from the account"
+      }
+    },
+    "withdrawalPage": {
+      "title": "Withdrawal from {currencyCode} account",
+      "form": {
+        "address": "Wallet address",
+        "sendAmount": "Sending amount",
+        "totalAmount": "Will be debited",
+        "btn": "Create a request",
+        "notEnoughMoney": "Insufficient funds for withdrawal",
+        "allAvailable": "Available for debiting",
+        "willBeSpentHint": "{fee} {currencyCode} - transfer fee"
+      },
+      "info": {
+        "title": "Attention!",
+        "minAmount": "Minimum withdrawal amount",
+        "maxAmount": "Maximum withdrawal amount",
+        "fee": "Transaction fee",
+        "noAdditionalFee": "When the withdrawal amount is increased, the commission does not change"
+      },
+      "error": "An error occurred while loading data. Please reload the page",
+      "successNotification": "An email to confirm the withdrawal of funds has been sent to your email address. Go to your email and confirm this operation!"
+    },
+    "invoicePage": {
+      "title": "Application {InvoiceID}",
+      "attention": {
+        "title": "Attention",
+        "text": "Send exactly the amount specified in the application. Replenishment occurs only after specifying the transaction ID (TxID).",
+        "text2": "The regulated time for crediting cryptocurrency is up to 60 minutes.",
+        "text3": "If you have any difficulties, please contact technical support."
+      },
+      "errors": {
+        "notFound": {
+          "text": "The application was not uploaded",
+          "btn": "Upload again"
+        }
+      }
+    },
+    "PullDepositPage": {
+      "returnBtn": "To my pools",
+      "step1": "1. Select the pool you want to invest in",
+      "step1Hint": "Click on the card to select",
+      "step2": "2. Make a contribution",
+      "step2Hint": "All fields are required",
+      "balanceError": "An error occurred when loading the invoice",
+      "addPull": "Select a pool for a deposit"
+    },
+    "CabinetRequestsTfaConnect": {
+      "success": "Two-factor authentication was successfully enabled",
+      "error": "An error occurred while enabling two-factor authentication",
+      "errorBtn": "Try again"
+    },
+    "CabinetRequestsEmailVerification": {
+      "success": "The email address of your account was successfully verified!",
+      "error": "An error occurred while verifying the email address",
+      "errorBtn": "Try again"
+    },
+    "CabinetRequestsPasswordChange": {
+      "success": "Email address your account was successfully verified!",
+      "successHelp1": "Email address your account was successfully verified!",
+      "successHelp2": "Email address your account was successfully verified!",
+      "error": "an error Occurred when changing the password",
+      "errorBtn": "Try again"
+    },
+    "CabinetRequestsWithdrawal": {
+      "title": "the Request for withdrawal of funds",
+      "id": "application ID",
+      "address": "recipient Address",
+      "sent": "Will be sent",
+      "spent": "From the account will be withdrawn",
+      "error": "an error Occurred while loading data"
+    }
+  },
+  "authPages": {
+    "loginPage": {
+      "title": "Login to your account",
+      "forgotPasswordBtn": "Forgot your password?",
+      "registerBtn": "No account yet",
+      "loginFromBtn": "Login via",
+      "errors": {
+        "loginError": "An error occurred while logging in. Please reload the page"
+      }
+    },
+    "registerPage": {
+      "title": "Account registration",
+      "loginBtn": "I already have an account",
+      "successRegisterMessage": "You were successfully registered",
+      "errors": {
+        "registerError": "An error occurred while logging in. Please reload the page"
+      }
+    },
+    "AuthRestoreConfirmPage": {
+      "title": "Restoring access to your accoun",
+      "successNotification": "Your account password was successfully changed"
+    },
+    "AuthRestorePage": {
+      "title": "Restoring account access",
+      "successNotification": "Tools for account recovery were sent to the email address you specified"
+    }
+  },
+  "adminPages": {
+    "pullsPage": {
+      "title": "Pools",
+      "createPullBtn": "Create a new one"
+    },
+    "newPullPage": {
+      "title": "Creating a new pool",
+      "successNotification": "Successfully created"
+    },
+    "editPullPage": {
+      "title": "Editing the pool",
+      "savedMessage": "Saved!",
+      "error": {
+        "notFound": {
+          "text": "The pool was not loaded",
+          "btn": "Download again"
+        }
+      }
+    },
+    "botsPage": {
+      "title": "Bots",
+      "btn": "New bot"
+    },
+    "newBotPage": {
+      "step1": "1. Select a pool",
+      "step1Hint": "Click on the card to select",
+      "step2": "2. Create a bot",
+      "successNotification": "The bot was created successfully"
+    },
+    "AdminTraderRequestPage": {
+      "title": "Trader's request #{RequestId}"
+    },
+    "AdminTradersRequests": {
+      "title": "Requests from traders"
+    },
+    "AdminUsersPage": {
+      "title": "System Users"
+    },
+    "AdminWithdrawalsPage": {
+      "title": "Withdrawal requests"
+    }
+  },
+  "general": {
+    "cookieDialog": {
+      "text": "This website uses cookies so that you can use our website as efficiently as possible. By using our website, you consent to the use of cookies",
+      "btn": "Good"
+    },
+    "pullCard": {
+      "status": {
+        "all": "All",
+        "Created": "Fundraising",
+        "Process": "In progress",
+        "Closed": "Closed",
+        "Canceled": "Canceled",
+        "search": "Search by status",
+        "tap": "Click to select",
+        "percent": "Percentage of earnings"
+      },
+      "types": {
+        "all": "All",
+        "Level1": "Quarterly",
+        "Level2": "Semi-annual",
+        "Level3": "Annual",
+        "Level4": "Professional"
+      },
+      "minDepositAmount": "from {amount} {currencyCode}",
+      "months": "{months} months",
+      "days": "{days} days",
+      "profitabilityPer30Days": "{profitabilityPer30Days}% in 30 days",
+      "depositBtn": "Contribute",
+      "mediumTime": "The average pool collection time is 3 days",
+      "lastDeposit": "The last contribution to this pool",
+      "closedStatus": "Closed for deposit",
+      "detail": "on",
+      "detail-one": "under"
+    },
+    "pullDepositDialog": {
+      "title": "Contribution",
+      "successMessage": "Your contribution was successfully made"
+    },
+    "pullDepositForm": {
+      "balanceBtnTitle": "Your balance",
+      "balanceBtnText": "deposit everything",
+      "amountText": "Deposit amount",
+      "receiveAfterText": "You will receive at the end",
+      "feeText": "Deposit fee",
+      "submitBtn": "Contribute",
+      "input": "Make a contribution"
+    },
+    "pullInfo": {
+      "sentBefore": "Your contribution",
+      "minSendAmount": "Minimum deposit amount",
+      "maxSendAmount": "Maximum deposit amount",
+      "duration": "Deposit term",
+      "toStartAmount": "There is still time left before the start"
+    },
+    "depositCard": {
+      "status": {
+        "Created": "Make a transaction",
+        "Pending": "In processing",
+        "Canceled": "Canceled",
+        "Error": "Error",
+        "Confirmed": "Confirmed"
+      },
+      "createdStatusAttention": {
+        "text": "Transaction in the status of waiting for funds to be deposited",
+        "btn": "Deposit funds"
+      }
+    },
+    "invoiceCreateForm": {
+      "amount": "Deposit amount",
+      "btn": "Create an applicatio",
+      "error": "An error occurred during the formation of the application"
+    },
+    "walletCard": {
+      "depositBtn": "Top up",
+      "withdrawalBtn": "Withdraw",
+      "txBtn": "Transactions",
+      "createBtn": "Create an account"
+    },
+    "invoiceAutoUpdateForm": {
+      "refreshAfter": "Update after",
+      "counter": "{counter} seconds"
+    },
+    "invoiceCard": {
+      "status": "Application status",
+      "address": "Replenishment address",
+      "amount": "Deposit amount",
+      "copySuccessMessage": "Copied",
+      "copyErrorMessage": "An error occurred while copying"
+    },
+    "invoiceSendTxForm": {
+      "txId": "Transaction ID",
+      "btn": "I filled up"
+    },
+    "loginForm": {
+      "username": "Your username or email",
+      "password": "Your password",
+      "btn": "Log in",
+      "code": "Code with Google Authenticator"
+    },
+    "registerForm": {
+      "email": "Your email",
+      "login": "Your login",
+      "password": "Your password",
+      "repeatPassword": "Repeat your password",
+      "btn": "Register",
+      "error": {
+        "alreadyHasAccount": "Such an account already exists"
+      }
+    },
+    "alertNeedAuth": {
+      "text": "To make a contribution, you need to log in to your account or create it\"",
+      "loginBtn": "Log in",
+      "registerBtn": "Register"
+    },
+    "alertNeedWalletCreate": {
+      "text": "To make a deposit, you need to create an account in your personal account and top it up",
+      "btn": "Create an account"
+    },
+    "newPoolForm": {
+      "title": "Pool name",
+      "type": "Pool type",
+      "typePlaceholder": "Select the pool type",
+      "duration": "Pool working time (days)",
+      "investorProfitPercent": "The percentage of profit for the investor per month",
+      "minTxAmount": "Minimum deposit amount",
+      "minStartAmount": "Minimum amount to start the pool",
+      "maxStartAmount": "The maximum amount to start the pool",
+      "investorFeePercent": "Percentage of commission for the investor when depositing",
+      "btn": "Create"
+    },
+    "pullEditForm": {
+      "isActive": "Visibility for investors",
+      "btn": "Save"
+    },
+    "pullAdminCard": {
+      "visible": "Visible",
+      "notVisible": "Not visible",
+      "realTotalAmount": "Real deposits",
+      "investorProfitPercent": "the Percentage of investors",
+      "minTxAmount": "Minimum Deposit amount",
+      "duration": "working Time",
+      "usersCount": "number of users",
+      "botsCount": "number of bots",
+      "btn": "Actions",
+      "mediumTime": "Last contribution to this pool"
+    },
+    "pullAdminCardActions": {
+      "analyticsBtn": "Analytics",
+      "editBtn": "Edit",
+      "txEditBtn": "Manage contributions"
+    },
+    "botCard": {
+      "status": {
+        "active": "Active",
+        "notActive": "Not active"
+      },
+      "pullName": "ool {name}"
+    },
+    "botCreateForm": {
+      "label": {
+        "amount": "How much to fill in",
+        "maxAmount": "Maximum amount of one transaction",
+        "activateAfter": "Activate immediately after creation"
+      },
+      "submitBtn": "Create"
+    },
+    "PullAdminChangeStatusForm": {
+      "statusLabel": "Pool status",
+      "btn": "Change status"
+    },
+    "TraderRequestCard": {
+      "adminComment": "Admin Comment",
+      "btn": "Learn more"
+    },
+    "TraderRequestEditForm": {
+      "label": {
+        "email": "Email",
+        "name": "First name",
+        "surname": "Surname",
+        "adminComment": "Comment from the administrator"
+      },
+      "btn": "Save"
+    },
+    "AdminWithdrawalCard": {
+      "btn": "Learn more"
+    },
+    "AdminWithdrawalInfoDialog": {
+      "title": "the withdrawal Request #{id}",
+      "label": {
+        "amount": "withdrawal",
+        "address": "Address",
+        "status": "Status",
+        "createdAt": "date of application",
+        "paidAt": "the date of confirmation of payment",
+        "id": "Application ID",
+        "ok": "Confirm",
+        "no": "Cancel"
+      }
+    },
+    "RestoreConfirmForm": {
+      "newPassword": "New password",
+      "repeatNewPassword": "Confirm new password",
+      "btn": "Restore"
+    },
+    "RestoreForm": {
+      "email": "Account Email address",
+      "btn": "Restore"
+    },
+    "PasswordChangeCard": {
+      "successNotification": "Further instructions for changing the password have been sent to your email address"
+    },
+    "TfaCard": {
+      "hasTfaAlert": "You have already enabled two-factor authentication"
+    },
+    "TfaConnectCard": {
+      "secret": "Secret key",
+      "qrCodeError": "An error occurred when generating a qr code for Google Authenticator",
+      "successNotification": "Instructions for enabling two-factor authentication were sent to your email address"
+    },
+    "TfaConnectForm": {
+      "code": "Code with Google Authenticator",
+      "btn": "Connect",
+      "error": "An error occurred when creating an application for connecting two-factor authentication. Please contact technical support"
+    },
+    "PullDepositCancelDialog": {
+      "title": "Cancel contribution",
+      "question": "Do you really want to cancel all your contributions to this pool?",
+      "yesBtn": "Yes, I want",
+      "noBtn": "No",
+      "successNotification": "All deposits to this pool have been successfully canceled. The funds were returned to your balance!",
+      "error": "An error occurred when canceling deposits"
+    },
+    "UserPullCard": {
+      "contributedText": "Your contribution",
+      "tillStart": "There is still time to start",
+      "lastDeposit": "The last contribution to this pool",
+      "actionsBtn": "Actions",
+      "cancelBtn": "Cancel a contribution",
+      "closedText": "Closed for deposit"
+    },
+    "ReferralBanner1": {
+      "dimensions": "Banner dimensions (in px)",
+      "copyBtn": "Copy",
+      "copied": "Copied",
+      "error": "An error occurred while copying"
+    },
+    "ReferralInviteMethods": {
+      "hint": "A link with an infinite validity period! If a person enters it for the first time, and then by someone else's link, it will be counted as yours",
+      "bannerHint": "Use any of the banners below to invite referrals. Click on copy to get its code for further placement on your website or blog.",
+      "banner1": "Banner 1",
+      "banner2": "Banner 2",
+      "copied": "Copied",
+      "error": "An error occurred while copying"
+    },
+    "UserReferralsDataTable": {
+      "fromLoginUser": "Login",
+      "amount": "Earned",
+      "createdAt": "Registration date"
+    },
+    "EmailVerificationCard": {
+      "verified": "Verified",
+      "successNotification": "Further instructions for verifying the email address have been sent to your email",
+      "error": "An error occurred when creating a verification request"
+    },
+    "BalanceStatusCards": {
+      "all": "Total on the account",
+      "available": "Available for operations",
+      "inPulls": "Now in deposits"
+    },
+    "DepositDeleteDialog": {
+      "title": "Deleting an application",
+      "question": "Do you really want to delete it?",
+      "yesBtn": "Yes",
+      "noBtn": "No",
+      "successNotification": "The application was successfully deleted",
+      "error": "An error occurred when deleting the application"
+    },
+    "UserDepositTransactions": {
+      "error": "An error occurred while loading transactions"
+    },
+    "UserWithdrawalTransactions": {
+      "error": "An error occurred while loading transactions"
+    },
+    "WithdrawalCard": {
+      "sent": "Sent",
+      "fee": "Commission",
+      "btn": "Learn more"
+    },
+    "ProfileLevel": {
+      "toNext": "Until next"
+    },
+    "ReferralProgress": {
+      "fromAmount": "from {amount} {currencyCode}",
+      "level": "Level {level}",
+      "currentLevel": "our current level",
+      "youReceive": "You receive {percent}% of the service commission for each contribution of your referral"
+    },
+    "BecomeTraderDialog": {
+      "title": "Application submission",
+      "successNotification": "Your application was successfully submitted! We will contact you as soon as possible"
+    },
+    "BecomeTraderForm": {
+      "email": "Your email address",
+      "phone": "Your phone",
+      "name": "Your first name",
+      "surname": "Your last name",
+      "description": "A little about yourself",
+      "btn": "Send",
+      "error": "An error occurred when sending the application"
+    },
+    "ActiveSessionsCard": {
+      "btn": "Deactivate all sessions"
+    },
+    "ActiveSessionsDataTable": {
+      "actionBtn": "Deactivate",
+      "currentLabel": "Current",
+      "header": {
+        "lastLoginAt": "Last entry",
+        "OS": "Operating system",
+        "device": "Device",
+        "browser": "Browser",
+        "remoteIpAddress": "IP address"
+      }
+    },
+    "NewPullCard": {
+      "days": "{days} days",
+      "depositBtn": "Invest",
+      "cancelBtn": "Cancel a deposit",
+      "mediumTime": "The average pool collection time is 3 days",
+      "lastDeposit": "The last contribution to this pool",
+      "minAmount": "Min. investment",
+      "noDepositsMsg": "You can be the first!",
+      "capturedAmount": "Collected",
+      "leftAmount": "We have until the start"
+    }
+  },
+  "footer": {
+    "policy": "\nPrivacy Policy",
+    "cookies": "Cookie Usage Policy"
+  },
+  "policyRules": {
+    "first": "Cryptoniex (hereinafter referred to as the \"Company\") it takes seriously the issues of ensuring the security of personal data of customers and the preservation of confidential information.",
+    "second": "In order to avoid the loss of information, its misuse, modification and unauthorized access to it by third parties, the Company fulfills all the requirements, both organizational and technical, namely: regularly conducts inspections, testing and other necessary measures.",
+    "three": "The Company respects your right to privacy. This Privacy Policy (hereinafter referred to as the \"Policy\") determines what personal data is collected from the Company's website, as well as other resources and applications that relate to it. This Policy does not apply to sites that belong to other companies and third parties. This Policy also explains the use of the personal data received when you use the Company's services and products through communication by phone, email or other means. This Policy informs you about what information is collected by the Company, to whom it is provided and for what purposes, how the Company ensures its safety and what rights you have to preserve the confidentiality of information.",
+    "four": "What personal data is collected by the Company and for what purposes",
+    "five": "The personal data that the Company may collect belongs to one of the following categories:",
+    "six": "Information that is provided voluntarily",
+    "seven": "You can provide the Company with identification, contact, financial and other information by phone, when filling out online forms or sending questionnaires by e-mail, when logging in to your Personal Account or in any other way available to the Company. Also, all the personal data that you provide in cases where:",
+    "list": {
+      "one": "do you use the Company's products or services;",
+      "two": "register a Personal account on the Company's website;",
+      "three": "subscribe to the Company's publications or third-party publications related to the Company;",
+      "four": "you agree to receive advertising materials and newsletters;",
+      "five": "do you participate in contests, the Cryptoniex loyalty program, special promotions or surveys;",
+      "six": "leave feedback"
+    },
+    "eight": "On certain pages of the site, personal data may be requested, which you can provide if you wish, and you will be clearly informed about what personal data is required from you.",
+    "nine": "Information that is collected by the Company automatically",
+    "ten": "When you visit the Company's website, certain information (for example, your IP address, device type, browser type, etc.) is automatically sent from your devices. In some jurisdictions, including EU countries, such information may be considered personal in accordance with certain data protection regulations.",
+    "eleven": "The company also receives information about how your device interacted with the site, including visited pages and click-throughs. The collection of this information allows the Company to analyze the requests of visitors and Customers in order to improve the quality of 3 products provided in",
+    "twelve": "The cookie policy.",
+    "thirteen": "Disclosure of personal data",
+    "fourteen": "The Company may disclose your personal data to the following categories of persons:",
+    "list-two": {
+      "one": "The Group of companies that the Company belongs to, service providers and partners who provide data processing services to the Company (for example, maintain the operability, security of the Company's website) or otherwise process personal data for the purposes described in this Policy.",
+      "two": "Relevant law enforcement agencies, regulatory or governmental organizations, courts or other third parties within the framework of current legislation.",
+      "three": "To any other person with your consent."
+    },
+    "fifteen": "The Company uses your personal data for the following purposes:",
+    "list-three": {
+      "one": "1. Providing customer service",
+      "two": "Type of data:",
+      "three": "identification information (first name, last name, country of residence, address and other similar information), contact information (email address, phone number, web page, etc.), copies and images of national identification documents (passport, id document, residence permit, etc.), financial information (bank account number, bank card number and name of its owner, documents confirming the origin of funds, etc.), documents confirming the fact of political significance.",
+      "four": "Goal:",
+      "five": "registration of you as a client, providing the opportunity to open trading accounts, providing the opportunity to use the Company's products and services, providing the opportunity to perform non-trading operations in accordance with the Regulations for performing non-trading operations, obtaining the opportunity to collect information regarding the occurrence of possible debts to the Company.",
+      "six": "Legal grounds:",
+      "seven": "compliance with the Client Agreement, compliance with legal requirements.",
+      "eight": "2. Risk management, prevention of money laundering, response to regulatory and legal requirements",
+      "nine": "transactional, financial, and identity documents.",
+      "ten": "compliance with the current legislation; detection, investigation, prevention of money laundering; response to claims; provision of information to the relevant state authorities in cases specified by law. Collecting information that is necessary for compliance with the law and countering money laundering, including \"Know Your Client\" information; information related to international sanctions or other restrictive measures, as well as information about illegal and political actions of a potential client that may influence the Company's decision to cooperate with the client.",
+      "eleven": "compliance with legal requirements.",
+      "twelve": "3. Marketing",
+      "thirteen": "contacts, consent and correspondence.",
+      "fourteen": "контакты, согласие и переписка.",
+      "fifteen": "compliance with the Client Agreement",
+      "sixteen": "contacts, consent and correspondence."
+    },
+    "list-four": {
+      "one": "The Client has the right to:",
+      "two": "Send a request to correct inaccurate information and / or supplement any incomplete personal data. The Company will process the request for correction of your personal data and notify third parties to whom such personal information may have been transferred, in accordance with the rules of the Policy. Refuse to receive marketing information sent by the Company to its customers",
+      "three": "Request that the Company stop processing personal data. Refusal to process personal data may prevent you from using certain products and services for which the processing of personal data is necessary.",
+      "four": "Revoke your consent to the processing of personal data at any time, while the refusal to process personal data does not affect the legality of the data processing to which consent was previously given. Revocation of consent may prevent you from using some of the functions of the Company's service that require the processing of personal data.",
+      "five": "Require the Company to delete all personal personal data. The company will delete it if there is no legitimate reason not to do so."
+    },
+    "sixteen": "Current security measures of the Company",
+    "seventeen": "The Company applies all necessary appropriate technical and organizational measures to protect all personal data that it collects and processes. The measures applied provide a level of security that corresponds to the risks associated with the processing of personal data. In particular, the Company:",
+    "list-five": {
+      "one": "Stores personal data on secure servers",
+      "two": "Uses encrypted links to transfer data as far as possible in cases where it is necessary.",
+      "three": "Applies other security measures: firewalls, authentication systems (for example, passwords) and access control mechanisms to prevent unauthorized access to systems and data",
+      "four": "Regularly reviews the processes of data collection, storage and processing, including physical security measures, in order to protect against unauthorized access to systems.",
+      "five": "Restricts access to personal data by employees of the Company, contractors and agents who need to know such information for processing purposes and who are subject to strict contractual obligations to respect confidentiality."
+    },
+    "eighteen": "International data transfer",
+    "nineteen": "Under certain conditions, the Company has the right to transfer your personal data to a third party in another country for their further processing in accordance with the purposes set out in 5 of this Policy. In some cases, this may include the transfer of data to countries that do not provide the same level of protection as the laws of your country of residence. In such cases, the Company, in accordance with the requirements of the law, guarantees that your privacy rights will be properly protected by appropriate technical, organized, contractual or other legal measures. This includes the conclusion of agreements on the transfer of personal data within the group of companies to which the Company belongs, requiring all partners to protect the personal data that they process in accordance with applicable data protection laws.",
+    "twenty": "Data storage",
+    "part-two": {
+      "one": "Your personal data is stored for as long as it is necessary to fulfill the purposes set out in this Policy (unless the law requires their longer storage).",
+      "two": "Automatic decision-making",
+      "three": "In some cases, the Company's use of your personal data may lead to automatic decisions (including profiling) that affect you legally or have an important influence of a different nature on you.",
+      "four": "An automatic decision is a decision about you made automatically based on a computer calculation (using software algorithms), without human control.",
+      "five": "If an automatic decision is made, you have the right to challenge this decision and request a review of the decision by an employee of the Company."
+    }
+  },
+  "cookiesRules": {
+    "one": "The Company's Cookie Usage Policy",
+    "two": "This document defines the terms of use of cookies on the Company's website, explains the purposes of using cookies and defines the rights of users to change and determine the rules for providing cookies at their discretion.",
+    "three": "Cookies are necessary to provide and improve the quality of online services provided by the Company, as well as to ensure the confidentiality of information provided by the user and its processing in an appropriate form. Alpari takes all necessary security measures to prevent unauthorized access, disclosure, modification or unauthorized deletion of information provided by customers through cookies.",
+    "four": "What are cookies?",
+    "five": "A cookie is a small text file that is stored on your computer or other device used when visiting the site. The text file contains information that is used to provide the site visitors with the best quality service.",
+    "six": "What cookies are used on the Cryptoniex website?",
+    "list": {
+      "one": "We use the following types of cookies:",
+      "two": "Required.",
+      "three": "Such cookies are necessary for the operation of the site. They include, for example, cookies that allow you to log in to secure parts of the site and use the basic functionality of the site.",
+      "four": "Analytical / service.",
+      "five": "Such cookies provide information about the purposes for which and how often the Company's website is used, which user groups there are, and which search tools are used. Statistics on cookies can also be obtained from a third party.",
+      "six": "Targeted ones.",
+      "seven": "Such cookies remember your visits to the Company's website (which pages you visited, which links were clicked on). The company uses this information for the purpose of analyzing the interests of users of the site."
+    },
+    "seven": "How do I disable cookies?",
+    "eight": "If you do not want cookies to be used on your devices, you can change the security settings of your browser. Please note that depending on the browser type, the security settings may differ, they must be configured separately for each browser. If you block all cookies in your browser (including mandatory cookies), the entire site or part of it may be inaccessible to you.",
+    "nine": "To learn more about cookies and how to manage them in your browser, you can visit the website"
+  },
+  "pullSelector": {
+    "one": "Your contribution:",
+    "two": "Start via"
+  },
+  "pathToProfi": {
+    "one": "Thank you for registering! We know that our service is new and unknown for you. In order that you would not get confused, we will help you.",
+    "two": "Well",
+    "three": "Don't show this banner",
+    "four": "These are your first steps! After passing them, you will become an advanced user of the service. Click on the list items for a quick review",
+    "five": "1. Verify your email address",
+    "six": "2. Enable two-factor authentication",
+    "seven": "3. Create an account",
+    "eight": "4. Make the first deposit",
+    "nine": "5. Make your first contribution",
+    "ten": "6. Invite the first user"
+  },
+  "guides": {
+    "email": {
+      "one": "Email verification Instructions",
+      "two": "Go to the “Verification \" item in your personal account.",
+      "three": "Go to verification",
+      "four": "In the “Email address verification” section, click on \"Verify\". An email will be sent to your email address with a link that you need to click on to complete the operation.",
+      "five": "As a result of going to the source site, you will see a notification that the account has been successfully confirmed."
+    },
+    "pull": {
+      "one": "How do I make a contribution?",
+      "two": "Click on the button in the header of the site \"Make a contribution\". Or click",
+      "three": "Make your first contribution",
+      "four": "Select the pool to which you want to contribute",
+      "five": "Enter the deposit amount and click \"Make a contribution\"",
+      "six": "As soon as there is a sufficient amount of deposits in the pool, it will be launched. The funds that you have invested in the pool will be transferred from your account to the traders ' accounts."
+    },
+    "referal": {
+      "one": "How to invite a user to the service",
+      "two": "Go to the “Referral program \" item in your personal account.",
+      "three": "Go to the page",
+      "four": "Copy your referral link and send it to the user. In order for him to be listed as your referral, a user registration is required by your link",
+      "five": "You can also place a banner on your blog or on your page. When a user clicks on this banner and then registers it, it will also be considered your referral",
+      "six": "You will receive a percentage of the commission for the user's deposits",
+      "seven": "If the invited user has any questions, try to help him with the development of the service"
+    },
+    "tfa": {
+      "one": "Instructions for enabling two-factor verification",
+      "two": "Install Google Authenticator on your device.",
+      "three": "Go to the “Security \" item in your personal account.",
+      "four": "Go to Security",
+      "five": "On the page, open the two-factor verification section",
+      "six": "Scan the QR code that appears.",
+      "seven": "Important!",
+      "eight": "Don't forget to save the secret key. Never give it to anyone. With its help, you always have the opportunity to restore the generation of codes for confirming operations on the service.",
+      "nine": "Enter the code from the Google Authenticator app and click the\"Connect\" button",
+      "ten": "An email will be sent to your email with a link that you will need to click to confirm this operation"
+    },
+    "wallet": {
+      "one": "Instructions for creating an account",
+      "two": "Go to the “Accounts \" item in your personal account.",
+      "three": "Go to the page",
+      "four": "The invoice is automatically created when you go to the page. Wait until you see it on the screen"
+    },
+    "deposit": {
+      "one": "Instructions for adding funds to your account",
+      "two": "Go to the “Accounts \" item in your personal account.",
+      "three": "Go to the page",
+      "four": "Click the\"Top up\" button",
+      "five": "Enter the amount you want to top up and click \"Create an application\"",
+      "six": "Send exactly the specified amount to the specified address",
+      "seven": "After sending, copy the transaction ID (TXN ID), paste it into the field and click \"I have filled in\"",
+      "eight": "Wait until your application is checked and executed by the system"
+    }
+  },
+  "additional": {
+    "one": "At the moment, you are not participating in any pool, open the page for investors to connect the remote control.",
+    "two": "To the page for investors"
+  }
+}
