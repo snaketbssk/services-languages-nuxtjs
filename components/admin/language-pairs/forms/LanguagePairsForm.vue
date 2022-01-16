@@ -67,7 +67,6 @@ export default class LanguagePairsForm extends Vue {
     if (!this.languageTables) {
       return guid
     }
-    console.log(this.languageTables)
     const languageTable = this.languageTables.find(v => v.guid.toString() === guid)
     if (!languageTable) {
       return guid

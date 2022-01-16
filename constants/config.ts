@@ -2,6 +2,10 @@ export const AUTH_COOKIE_NAME: string = 'token'
 
 export const REJECT_UNAUTHORIZED: boolean = false
 
+export const IDENTITY_SERVICE_API: string = 'identity_api'
+
+export const LANGUAGES_SERVICE_API: string = 'languages_api'
+
 // import { ILocale } from '~/types/interfaces/ILocale'
 //
 // export const AUTH_COOKIE_NAME: string = <string>process.env.authCookieName ?? 'token'
