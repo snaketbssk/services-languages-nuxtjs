@@ -28,7 +28,7 @@
     <div class="text-body-2">
       Password
     </div>
-    <PasswordField
+    <PasswordTextField
       v-model="signUpRequest.password"
       :rules="rules.password"
       dense
@@ -39,7 +39,7 @@
     <div class="text-body-2">
       Repeat password
     </div>
-    <PasswordField
+    <PasswordTextField
       v-model="signUpRequest.confirmPassword"
       :rules="rules.confirmPassword"
       dense
@@ -52,6 +52,7 @@
       color="primary"
       type="submit"
       :loading="loading"
+      class="ma-1"
     >
       Register
     </v-btn>
@@ -64,14 +65,14 @@ import { SignUpRequest } from '~/models/requests/entities/SignUpRequest'
 import { ServiceEnum } from '~/models/enums/ServiceEnum'
 import { IIdentityService } from '~/services/IIdentityService'
 import { ISignUpRequest } from '~/models/requests/ISignUpRequest'
-import PasswordField from '~/components/ui/PasswordField.vue'
+import PasswordTextField from '~/components/ui/textfields/PasswordField.vue'
 import { Rules } from '~/models/Rules'
 import { validationRules } from '~/utils/validations'
 import { VForm } from '~/models/VForm'
 
 @Component({
   name: 'RegisterFormAuthorization',
-  components: { PasswordField }
+  components: { PasswordTextField }
 })
 export default class RegisterFormAuthorization extends Vue {
   @Inject(ServiceEnum.Identity)

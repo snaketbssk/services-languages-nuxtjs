@@ -12,10 +12,10 @@
 import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component({
-  name: 'PasswordField',
+  name: 'PasswordTextField',
   inheritAttrs: false
 })
-export default class PasswordField extends Vue {
+export default class PasswordTextField extends Vue {
   show = false
 }
 </script>

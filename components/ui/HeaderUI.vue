@@ -3,11 +3,14 @@
     fixed
     app
   >
-    <v-toolbar-title v-text="title" />
+    <v-toolbar-items>
+      <v-btn
+        to="/"
+      >
+        {{ title }}
+      </v-btn>
+    </v-toolbar-items>
     <v-spacer />
-    <div>
-      {{ login }}
-    </div>
     <template
       v-if="!isAuthenticated"
     >
@@ -28,6 +31,7 @@
       v-else
     >
       <v-toolbar-items>
+        <ProfileButton />
         <LogoutButton />
       </v-toolbar-items>
     </template>
@@ -36,22 +40,17 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator'
+import ProfileMenu from './menus/ProfileMenu.vue'
+import ProfileButton from './buttons/ProfileButton.vue'
 import { authStore } from '~/utils/store-accessor'
 import LogoutButton from '~/components/ui/buttons/LogoutButton.vue'
 
 @Component({
   name: 'HeaderUI',
-  components: { LogoutButton }
+  components: { LogoutButton, ProfileMenu, ProfileButton }
 })
 export default class HeaderUI extends Vue {
   title: string = 'Languages'
-
-  get login (): string {
-    if (authStore.userTable) {
-      return authStore.userTable.login
-    }
-    return ''
-  }
 
   get isAuthenticated (): boolean {
     return authStore.isAuthenticated

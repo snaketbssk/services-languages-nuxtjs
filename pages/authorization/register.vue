@@ -8,16 +8,18 @@
 
 <script lang="ts">
 import { Component, Inject, Vue } from 'nuxt-property-decorator'
-import RegisterFormAuthorization from '~/components/authorization/RegisterForm.vue'
+import RegisterFormAuthorization from '~/components/authorization/forms/RegisterForm.vue'
 import { ServiceEnum } from '~/models/enums/ServiceEnum'
 import { IIdentityService } from '~/services/IIdentityService'
 import { SignInRequest } from '~/models/requests/entities/SignInRequest'
 import { ISignUpRequest } from '~/models/requests/ISignUpRequest'
 import { authStore } from '~/utils/store-accessor'
+import { Middlewares } from '~/constants/middlewares'
 
 @Component({
   name: 'RegisterAuthorizationPage',
-  components: { RegisterFormAuthorization }
+  components: { RegisterFormAuthorization },
+  middleware: [Middlewares.CHECK_GUEST]
 })
 export default class RegisterAuthorizationPage extends Vue {
   @Inject(ServiceEnum.Identity)

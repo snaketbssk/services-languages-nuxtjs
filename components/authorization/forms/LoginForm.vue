@@ -17,7 +17,7 @@
     <div class="text-body-2">
       Password
     </div>
-    <password-field
+    <PasswordTextField
       v-model="signInRequest.password"
       :rules="rules.password"
       dense
@@ -27,6 +27,7 @@
     />
     <v-btn
       :loading="loading"
+      class="ma-1"
       block
       color="primary"
       type="submit"
@@ -40,7 +41,7 @@
 import { Component, Emit, Inject, Ref, Vue } from 'nuxt-property-decorator'
 import { ServiceEnum } from '~/models/enums/ServiceEnum'
 import { IIdentityService } from '~/services/IIdentityService'
-import PasswordField from '~/components/ui/PasswordField.vue'
+import PasswordTextField from '~/components/ui/textfields/PasswordField.vue'
 import { SignInRequest } from '~/models/requests/entities/SignInRequest'
 import { TokenTable } from '~/models/Tables/entities/TokenTable'
 import { Rules } from '~/models/Rules'
@@ -49,7 +50,7 @@ import { VForm } from '~/models/VForm'
 
 @Component({
   name: 'LoginFormAuthorization',
-  components: { PasswordField }
+  components: { PasswordTextField }
 })
 export default class LoginFormAuthorization extends Vue {
   @Inject(ServiceEnum.Identity)

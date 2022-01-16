@@ -1,3 +1,4 @@
 export enum ServiceEnum {
-  Identity = 'Identity'
+  Identity = 'IdentityService',
+  Languages = 'LanguagesService'
 }

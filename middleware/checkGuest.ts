@@ -4,7 +4,6 @@ import { authStore } from '~/utils/store-accessor'
 const checkGuest: Middleware = ({
   redirect
 }) => {
-  console.log('checkGuest')
   if (authStore.isAuthenticated) {
     redirect('/')
   }
