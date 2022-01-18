@@ -1,4 +1,4 @@
-// import { StatusCodes } from 'http-status-codes'
+import { StatusCodes } from 'http-status-codes'
 import type { Plugin } from '@nuxt/types'
 import { initializeAxios } from '~/utils/httpClient'
 import { authStore } from '~/utils/store-accessor'
@@ -12,6 +12,32 @@ const accessor: Plugin = ({ $axios, app: { router }, $routes, route }) => {
     }
     // request.headers.common.Locale = localeStore.locale;
     return request
+  })
+
+  $axios.onError(async (httpError) => {
+    if (httpError.response && router) {
+      switch (httpError.response.status) {
+        case StatusCodes.UNAUTHORIZED: {
+          authStore.logout()
+          await router.push({
+            ...$routes.INDEX,
+            query: {
+              next: route.fullPath
+            }
+          })
+          return
+        }
+        case StatusCodes.FORBIDDEN: {
+          authStore.logout()
+          await router.push({
+            ...$routes.INDEX,
+            query: {
+              next: route.fullPath
+            }
+          })
+        }
+      }
+    }
   })
 
   initializeAxios($axios)
