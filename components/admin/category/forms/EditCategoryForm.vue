@@ -36,7 +36,7 @@
     />
 
     <v-btn
-      :loading="loading"
+      :loading="isLoading"
       class="ma-1"
       block
       color="primary"
@@ -45,7 +45,7 @@
       Edit
     </v-btn>
     <v-btn
-      :loading="loading"
+      :loading="isLoading"
       class="ma-1"
       block
       color="error"
@@ -70,23 +70,23 @@ export default class EditCategoryForm extends Vue {
   @Inject(ServiceEnum.Languages)
   readonly languagesService!: ILanguagesService
 
-  loading: boolean = false
+  isLoading: boolean = false
   title: string = ''
   guid: string = ''
   createdAt: string = ''
 
   async fetch (): Promise<void> {
-    this.loading = true
+    this.isLoading = true
     const guid = Guid.parse(this.$route.params.guid)
     const languageTable = await this.languagesService.getCategory(guid)
     this.title = languageTable.title
     this.guid = languageTable.guid.toString()
     this.createdAt = `${languageTable.createdAt}`
-    this.loading = false
+    this.isLoading = false
   }
 
   async onSubmit (): Promise<void> {
-    this.loading = true
+    this.isLoading = true
     try {
       const guid = Guid.parse(this.guid)
       const editCategoryRequest = new EditCategoryRequest(this.title)
@@ -95,11 +95,11 @@ export default class EditCategoryForm extends Vue {
     } catch (e) {
       console.log(e.message)
     }
-    this.loading = false
+    this.isLoading = false
   }
 
   async onDelete (): Promise<void> {
-    this.loading = true
+    this.isLoading = true
     try {
       const guid = Guid.parse(this.guid)
       await this.languagesService.deleteCategory(guid)
@@ -107,7 +107,7 @@ export default class EditCategoryForm extends Vue {
     } catch (e) {
       console.log(e.message)
     }
-    this.loading = false
+    this.isLoading = false
   }
 
   redirect (): void {

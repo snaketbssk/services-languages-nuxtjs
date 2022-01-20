@@ -10,6 +10,7 @@ import { ICreateCategoryRequest } from '~/models/requests/ICreateCategoryRequest
 import { IEditLanguagePairRequest } from '~/models/requests/IEditLanguagePairRequest'
 import { IWordTable } from '~/models/Tables/IWordTable'
 import { ICreateWordRequest } from '~/models/requests/ICreateWordRequest'
+import { IEditWordRequest } from '~/models/requests/IEditWordRequest'
 
 export interface ILanguagesService {
   createLanguage (createLanguageRequest: ICreateLanguageRequest): Promise<ILanguageTable>
@@ -31,6 +32,7 @@ export interface ILanguagesService {
   getCategories (): Promise<ICategoryTable[]>
   //
   createWord (createWordRequest: ICreateWordRequest): Promise<IWordTable>
+  editWord (guid: Guid, editWordRequest: IEditWordRequest): Promise<IWordTable>
   deleteWord (guid: Guid): Promise<IWordTable>
   getWord (guid: Guid): Promise<IWordTable>
   getWords (): Promise<IWordTable[]>

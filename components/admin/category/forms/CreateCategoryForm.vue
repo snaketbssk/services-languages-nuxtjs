@@ -14,7 +14,7 @@
       solo
     />
     <v-btn
-      :loading="loading"
+      :loading="isLoading"
       class="ma-1"
       block
       color="primary"
@@ -38,13 +38,13 @@ export default class CreateCategoryForm extends Vue {
   @Inject(ServiceEnum.Languages)
   readonly languagesService!: ILanguagesService
 
-  loading: boolean = false
+  isLoading: boolean = false
   title: string = ''
   async onSubmit (): Promise<void> {
     if (!this.title) {
       return
     }
-    this.loading = true
+    this.isLoading = true
     try {
       const createCategoryRequest = new CreateCategoryRequest(this.title)
       await this.languagesService.createCategory(createCategoryRequest)
@@ -52,7 +52,7 @@ export default class CreateCategoryForm extends Vue {
     } catch (e) {
       console.log(e.message)
     }
-    this.loading = false
+    this.isLoading = false
   }
 
   redirect (): void {

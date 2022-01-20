@@ -10,6 +10,12 @@
             To
           </th>
           <th class="text-left">
+            Transcription
+          </th>
+          <th class="text-left">
+            Sentence
+          </th>
+          <th class="text-left">
             Guid
           </th>
           <th class="text-left">
@@ -27,12 +33,14 @@
         >
           <td>{{ wordTable.from }}</td>
           <td>{{ wordTable.to }}</td>
+          <td>{{ wordTable.transcription }}</td>
+          <td>{{ wordTable.sentence }}</td>
           <td>{{ wordTable.guid }}</td>
           <td>{{ wordTable.createdAt }}</td>
           <td>
             <v-btn
               icon
-              @click="changePage(languageTable.guid)"
+              @click="changePage(wordTable.guid)"
             >
               <v-icon dark>
                 mdi-pencil

@@ -13,6 +13,7 @@ import { IEditLanguagePairRequest } from '~/models/requests/IEditLanguagePairReq
 import { IWordTable } from '~/models/Tables/IWordTable'
 import { LANGUAGES_SERVICE_API } from '~/constants/config'
 import { ICreateWordRequest } from '~/models/requests/ICreateWordRequest'
+import { IEditWordRequest } from '~/models/requests/IEditWordRequest'
 
 export class LanguagesService implements ILanguagesService {
   public async createLanguage (createLanguageRequest: ICreateLanguageRequest): Promise<ILanguageTable> {
@@ -101,10 +102,10 @@ export class LanguagesService implements ILanguagesService {
     return data
   }
 
-  // public async editWord (guid: Guid, editCategoryRequest: IEditCategoryRequest): Promise<ICategoryTable> {
-  //   const { data } = await $axios.patch(`/${LANGUAGES_SERVICE_API}/Category/${guid.toString()}`, editCategoryRequest)
-  //   return data
-  // }
+  public async editWord (guid: Guid, editWordRequest: IEditWordRequest): Promise<IWordTable> {
+    const { data } = await $axios.patch(`/${LANGUAGES_SERVICE_API}/Word/${guid.toString()}`, editWordRequest)
+    return data
+  }
 
   public async getWord (guid: Guid): Promise<IWordTable> {
     const { data } = await $axios.get(`/${LANGUAGES_SERVICE_API}/Word/${guid.toString()}`)

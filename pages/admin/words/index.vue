@@ -8,11 +8,11 @@ import WordsForm from '~/components/admin/words/forms/WordsForm.vue'
 import { Middlewares } from '~/constants/middlewares'
 
 @Component({
-  name: 'IndexWordAdminPage',
+  name: 'IndexsWordAdminPage',
   components: { WordsForm },
   middleware: [Middlewares.CHECK_ADMIN]
 })
-export default class IndexWordAdminPage extends Vue {
+export default class IndexsWordAdminPage extends Vue {
 
 }
 </script>
