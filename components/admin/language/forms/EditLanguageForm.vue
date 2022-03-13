@@ -70,7 +70,7 @@ export default class EditLanguageForm extends Vue {
   @Inject(ServiceEnum.Languages)
   readonly languagesService!: ILanguagesService
 
-  isLoading: boolean = false
+  isLoading: boolean = true
   title: string = ''
   guid: string = ''
   createdAt: string = ''
@@ -84,7 +84,6 @@ export default class EditLanguageForm extends Vue {
   }
 
   async fetch (): Promise<void> {
-    this.isLoading = true
     await this.load()
     this.isLoading = false
   }

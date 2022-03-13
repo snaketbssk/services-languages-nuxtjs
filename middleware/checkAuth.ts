@@ -1,13 +1,13 @@
 import type { Middleware } from '@nuxt/types'
 import { authStore } from '~/utils/store-accessor'
-import { ROUTE } from '~/constants/routes'
+import { ROUTES } from '~/constants/routes'
 
 const checkAuth: Middleware = ({
   route,
   redirect
 }) => {
   if (!authStore.isAuthenticated) {
-    redirect(ROUTE.INDEX)
+    redirect(ROUTES.INDEX)
     // redirect({
     //   ...ROUTES.AUTH_LOGIN,
     //   query: {

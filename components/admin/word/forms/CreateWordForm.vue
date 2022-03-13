@@ -52,14 +52,15 @@
       Categories
     </div>
     <v-select
-      v-model="categoriesMultipleSelect.select"
-      :items="categoriesMultipleSelect.items"
+      v-model="categoryMultipleSelect.select"
+      :items="categoryMultipleSelect.items"
       :disabled="isLoading"
       item-text="text"
       item-value="value"
       label=""
-      chips
-      multiple
+      persistent-hint
+      return-object
+      single-line
     />
 
     <div class="text-body-2">
@@ -95,8 +96,6 @@ import { ServiceEnum } from '~/models/enums/ServiceEnum'
 import { CreateWordRequest } from '~/models/requests/entities/CreateWordRequest'
 import { ILanguagesService } from '~/services/ILanguagesService'
 import { ItemSelect } from '~/models/selects/entities/ItemSelect'
-import { MultipleSelect } from '~/models/selects/entities/MultipleSelect'
-import { IMultipleSelect } from '~/models/selects/IMultipleSelect'
 import { ISingleSelect } from '~/models/selects/ISingleSelect'
 import { SingleSelect } from '~/models/selects/entities/SingleSelect'
 
@@ -113,19 +112,19 @@ export default class CreateWordForm extends Vue {
   to: string = ''
   transcription: string = ''
 
-  categoriesMultipleSelect: IMultipleSelect = new MultipleSelect()
   languagesPairSelect: ISingleSelect = new SingleSelect()
+  categoryMultipleSelect: ISingleSelect = new SingleSelect()
 
   async loadCategories (): Promise<void> {
     const categoriesTables = await this.languagesService.getCategories()
     if (categoriesTables.length === 0) {
       return
     }
-    this.categoriesMultipleSelect.clear()
+    this.categoryMultipleSelect.clear()
     for (let i = 0; i < categoriesTables.length; i++) {
       const categoriesTable = categoriesTables[i]
       const item = new ItemSelect(categoriesTable.title, categoriesTable.guid.toString())
-      this.categoriesMultipleSelect.items.push(item)
+      this.categoryMultipleSelect.items.push(item)
     }
   }
 
@@ -172,7 +171,7 @@ export default class CreateWordForm extends Vue {
       const createWordRequest = new CreateWordRequest(
         this.sentence,
         this.languagesPairSelect.select.value,
-        this.categoriesMultipleSelect.select,
+        this.categoryMultipleSelect.select.value,
         this.from,
         this.to,
         this.transcription)

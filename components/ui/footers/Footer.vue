@@ -10,9 +10,9 @@
 import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component({
-  name: 'FooterUI'
+  name: 'Footer'
 })
-export default class FooterUI extends Vue {
+export default class Footer extends Vue {
 }
 </script>
 

@@ -11,6 +11,8 @@ import { IEditLanguagePairRequest } from '~/models/requests/IEditLanguagePairReq
 import { IWordTable } from '~/models/Tables/IWordTable'
 import { ICreateWordRequest } from '~/models/requests/ICreateWordRequest'
 import { IEditWordRequest } from '~/models/requests/IEditWordRequest'
+import { PaginationResponse } from '~/models/responses/entities/PaginationResponse'
+import { PaginationRequest } from '~/models/requests/entities/PaginationRequest'
 
 export interface ILanguagesService {
   createLanguage (createLanguageRequest: ICreateLanguageRequest): Promise<ILanguageTable>
@@ -35,5 +37,7 @@ export interface ILanguagesService {
   editWord (guid: Guid, editWordRequest: IEditWordRequest): Promise<IWordTable>
   deleteWord (guid: Guid): Promise<IWordTable>
   getWord (guid: Guid): Promise<IWordTable>
-  getWords (): Promise<IWordTable[]>
+  getWords (paginationRequest: PaginationRequest): Promise<PaginationResponse<IWordTable>>
+  //
+  compare (guid: Guid): Promise<IWordTable[]>
 }

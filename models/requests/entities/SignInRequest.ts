@@ -1,13 +1,15 @@
 import { ISignInRequest } from '~/models/requests/ISignInRequest'
 
 export class SignInRequest implements ISignInRequest {
-  codeTFA: string
   loginOrEmail: string
   password: string
-
-  constructor () {
-    this.codeTFA = ''
-    this.loginOrEmail = ''
-    this.password = ''
+  codeTFA: string
+  constructor (
+    loginOrEmail: string,
+    password: string,
+    codeTFA: string) {
+    this.loginOrEmail = loginOrEmail
+    this.password = password
+    this.codeTFA = codeTFA
   }
 }

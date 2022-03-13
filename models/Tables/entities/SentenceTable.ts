@@ -7,13 +7,13 @@ import { ILanguageTable } from '~/models/Tables/ILanguageTable'
 export class SentenceTable extends BaseTable implements ISentenceTable {
   from: string
   to: string
-  categories: ICategoryTable[]
+  category: ICategoryTable
   languagesPair: ILanguageTable
   transcription: string
   constructor (
     from: string,
     to: string,
-    categories: ICategoryTable[],
+    category: ICategoryTable,
     languagesPair: ILanguageTable,
     transcription: string,
     createdAt: Date,
@@ -22,7 +22,7 @@ export class SentenceTable extends BaseTable implements ISentenceTable {
     super(createdAt, guid)
     this.from = from
     this.to = to
-    this.categories = categories
+    this.category = category
     this.languagesPair = languagesPair
     this.transcription = transcription
   }

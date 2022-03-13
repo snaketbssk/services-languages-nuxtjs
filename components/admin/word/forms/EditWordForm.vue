@@ -55,14 +55,15 @@
       Categories
     </div>
     <v-select
-      v-model="categoriesMultipleSelect.select"
-      :items="categoriesMultipleSelect.items"
+      v-model="categoryMultipleSelect.select"
+      :items="categoryMultipleSelect.items"
       :disabled="isLoading"
       item-text="text"
       item-value="value"
       label=""
-      chips
-      multiple
+      persistent-hint
+      return-object
+      single-line
     />
 
     <div class="text-body-2">
@@ -98,8 +99,6 @@ import { Component, Inject, Vue } from 'nuxt-property-decorator'
 import { ServiceEnum } from '~/models/enums/ServiceEnum'
 import { EditWordRequest } from '~/models/requests/entities/EditWordRequest'
 import { ILanguagesService } from '~/services/ILanguagesService'
-import { IMultipleSelect } from '~/models/selects/IMultipleSelect'
-import { MultipleSelect } from '~/models/selects/entities/MultipleSelect'
 import { ISingleSelect } from '~/models/selects/ISingleSelect'
 import { SingleSelect } from '~/models/selects/entities/SingleSelect'
 import { ItemSelect } from '~/models/selects/entities/ItemSelect'
@@ -120,46 +119,20 @@ export default class EditWordForm extends Vue {
 
   createdAt: string = ''
 
-  // fromLanguageSelect: ISingleSelect = new SingleSelect()
-  // toLanguageSelect: ISingleSelect = new SingleSelect()
-
-  categoriesMultipleSelect: IMultipleSelect = new MultipleSelect()
   languagesPairSelect: ISingleSelect = new SingleSelect()
-
-  // async load (): Promise<void> {
-  //   const languageTables = await this.languagesService.getLanguages()
-  //   const guid = Guid.parse('d3aabf53-6172-4d3f-b89a-5a54084bd8c5')
-  //   const languagePairTable = await this.languagesService.getLanguagePair(guid)
-  //   this.guid = languagePairTable.guid.toString()
-  //   this.createdAt = `${languagePairTable.createdAt}`
-  //   this.fromLanguageSelect.clear()
-  //   this.toLanguageSelect.clear()
-  //   for (let i = 0; i < languageTables.length; i++) {
-  //     const languageTable = languageTables[i]
-  //     const item = new ItemSelect(languageTable.title, languageTable.guid.toString())
-  //     this.fromLanguageSelect.items.push(item)
-  //     this.toLanguageSelect.items.push(item)
-  //     if (languagePairTable.from.toString() === languageTable.guid.toString()) {
-  //       this.fromLanguageSelect.select = item
-  //     }
-  //     if (languagePairTable.to.toString() === languageTable.guid.toString()) {
-  //       this.toLanguageSelect.select = item
-  //     }
-  //   }
-  // }
+  categoryMultipleSelect: ISingleSelect = new SingleSelect()
 
   async loadCategories (): Promise<void> {
     const categoriesTables = await this.languagesService.getCategories()
     if (categoriesTables.length === 0) {
       return
     }
-    this.categoriesMultipleSelect.clear()
+    this.categoryMultipleSelect.clear()
     for (let i = 0; i < categoriesTables.length; i++) {
       const categoriesTable = categoriesTables[i]
       const item = new ItemSelect(categoriesTable.title, categoriesTable.guid.toString())
-      this.categoriesMultipleSelect.items.push(item)
+      this.categoryMultipleSelect.items.push(item)
     }
-    // this.categoriesMultipleSelect.select = [this.categoriesMultipleSelect.items[0].value]
   }
 
   async loadLanguagePairs (): Promise<void> {
@@ -188,16 +161,14 @@ export default class EditWordForm extends Vue {
     this.transcription = wordTable.transcription
     this.sentence = wordTable.sentence
     const guidLanguagesPair = wordTable.languagesPair.guid.toString()
-    const item = this.languagesPairSelect.items.find(v => v.value === guidLanguagesPair)
-    if (item) {
-      this.languagesPairSelect.select = item
+    const itemLanguagesPair = this.languagesPairSelect.items.find(v => v.value === guidLanguagesPair)
+    if (itemLanguagesPair) {
+      this.languagesPairSelect.select = itemLanguagesPair
     }
-    this.categoriesMultipleSelect.select = []
-    for (let i = 0; i < wordTable.categories.length; i++) {
-      const item = this.categoriesMultipleSelect.items.find(v => v.value === wordTable.categories[i].guid.toString())
-      if (item) {
-        this.categoriesMultipleSelect.select.push(item.value)
-      }
+    const guidCategory = wordTable.category.guid.toString()
+    const itemCategory = this.languagesPairSelect.items.find(v => v.value === guidCategory)
+    if (itemCategory) {
+      this.categoryMultipleSelect.select = itemCategory
     }
   }
 
@@ -230,7 +201,7 @@ export default class EditWordForm extends Vue {
       const editWordRequest = new EditWordRequest(
         this.sentence,
         this.languagesPairSelect.select.value,
-        this.categoriesMultipleSelect.select,
+        this.categoryMultipleSelect.select.value,
         this.from,
         this.to,
         this.transcription)

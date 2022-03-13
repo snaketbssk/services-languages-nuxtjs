@@ -1,11 +1,12 @@
 import { Location } from 'vue-router'
 
-export type RouteKey = 'INDEX'
+export type RouteKey = 'INDEX' | 'AUTHORIZATION_LOGIN'
 
-export type IRoute = {
+export type IRoutes = {
   [key in RouteKey]: Location
 }
 
-export const ROUTE: IRoute = {
-  INDEX: { name: 'index' }
+export const ROUTES: IRoutes = {
+  INDEX: { name: 'index' },
+  AUTHORIZATION_LOGIN: { name: 'authorization/login' }
 }

@@ -1,6 +1,6 @@
 export interface ICreateSentenceRequest {
   guidLanguagesPair: string
-  guidCategories: string[]
+  guidCategory: string
   from: string
   to: string
   transcription: string

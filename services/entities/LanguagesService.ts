@@ -14,19 +14,17 @@ import { IWordTable } from '~/models/Tables/IWordTable'
 import { LANGUAGES_SERVICE_API } from '~/constants/config'
 import { ICreateWordRequest } from '~/models/requests/ICreateWordRequest'
 import { IEditWordRequest } from '~/models/requests/IEditWordRequest'
+import { PaginationResponse } from '~/models/responses/entities/PaginationResponse'
+import { PaginationRequest } from '~/models/requests/entities/PaginationRequest'
 
 export class LanguagesService implements ILanguagesService {
   public async createLanguage (createLanguageRequest: ICreateLanguageRequest): Promise<ILanguageTable> {
-    const { data } = await $axios.put(
-      'https://localhost:16443/api/Language',
-      createLanguageRequest)
+    const { data } = await $axios.put(`/${LANGUAGES_SERVICE_API}/Language`, createLanguageRequest)
     return data
   }
 
   public async editLanguage (guid: Guid, editLanguageRequest: IEditLanguageRequest): Promise<ILanguageTable> {
-    const { data } = await $axios.patch(
-      `/${LANGUAGES_SERVICE_API}/Language/${guid.toString()}`,
-      editLanguageRequest)
+    const { data } = await $axios.patch(`/${LANGUAGES_SERVICE_API}/Language/${guid.toString()}`, editLanguageRequest)
     return data
   }
 
@@ -56,9 +54,7 @@ export class LanguagesService implements ILanguagesService {
   }
 
   public async editLanguagePair (guid: Guid, editLanguagePairRequest: IEditLanguagePairRequest): Promise<ILanguageTable> {
-    const { data } = await $axios.patch(
-      `/${LANGUAGES_SERVICE_API}/LanguagesPair/${guid.toString()}`,
-      editLanguagePairRequest)
+    const { data } = await $axios.patch(`/${LANGUAGES_SERVICE_API}/LanguagesPair/${guid.toString()}`, editLanguagePairRequest)
     return data
   }
 
@@ -117,8 +113,13 @@ export class LanguagesService implements ILanguagesService {
     return data
   }
 
-  public async getWords (): Promise<IWordTable[]> {
-    const { data } = await $axios.get(`/${LANGUAGES_SERVICE_API}/Words`)
+  public async getWords (paginationRequest: PaginationRequest): Promise<PaginationResponse<IWordTable>> {
+    const { data } = await $axios.get(`/${LANGUAGES_SERVICE_API}/Words/${paginationRequest.from}/${paginationRequest.to}`)
+    return data
+  }
+
+  public async compare (guid: Guid): Promise<IWordTable[]> {
+    const { data } = await $axios.get(`/${LANGUAGES_SERVICE_API}/Compare/LanguagesPair/${guid.toString()}`)
     return data
   }
 }

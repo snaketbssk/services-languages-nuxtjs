@@ -27,9 +27,7 @@ export default class RegisterAuthorizationPage extends Vue {
 
   async onSuccessRegister (signUpRequest: ISignUpRequest): Promise<void> {
     try {
-      const signInRequest = new SignInRequest()
-      signInRequest.loginOrEmail = signUpRequest.email
-      signInRequest.password = signUpRequest.password
+      const signInRequest = new SignInRequest(signUpRequest.email, signUpRequest.password, '')
       const tokenTable = await this.identityService.signIn(signInRequest)
       authStore.setToken(tokenTable.token)
       await authStore.fetchAuthedUser()

@@ -1,40 +1,42 @@
 <template>
-  <v-form
-    ref="form"
-    lazy-validation
-    @submit.prevent="onSubmit"
-  >
-    <div class="text-body-2">
-      Login
-    </div>
-    <v-text-field
-      v-model="signInRequest.loginOrEmail"
-      :rules="rules.login"
-      dense
-      flat
-      solo
-    />
-    <div class="text-body-2">
-      Password
-    </div>
-    <PasswordTextField
-      v-model="signInRequest.password"
-      :rules="rules.password"
-      dense
-      flat
-      solo
-      type="password"
-    />
-    <v-btn
-      :loading="loading"
-      class="ma-1"
-      block
-      color="primary"
-      type="submit"
+  <v-card>
+    <v-form
+      ref="form"
+      lazy-validation
+      @submit.prevent="onSubmit"
     >
-      Login
-    </v-btn>
-  </v-form>
+      <div class="text-body-2">
+        Login
+      </div>
+      <v-text-field
+        v-model="loginOrEmail"
+        :rules="rules.login"
+        dense
+        flat
+        solo
+      />
+      <div class="text-body-2">
+        Password
+      </div>
+      <PasswordTextField
+        v-model="password"
+        :rules="rules.password"
+        dense
+        flat
+        solo
+        type="password"
+      />
+      <v-btn
+        :loading="loading"
+        class="ma-1"
+        block
+        color="primary"
+        type="submit"
+      >
+        Login
+      </v-btn>
+    </v-form>
+  </v-card>
 </template>
 
 <script lang="ts">
@@ -59,11 +61,12 @@ export default class LoginFormAuthorization extends Vue {
   @Ref('form')
   readonly formRef!: VForm
 
-  signInRequest = new SignInRequest()
+  loginOrEmail: string = ''
+  password: string = ''
+  codeTFA: string = ''
+
   loading: boolean = false
   fetch (): void {
-    this.signInRequest.loginOrEmail = 'admin'
-    this.signInRequest.password = 'admin'
   }
 
   get rules (): Rules {
@@ -83,7 +86,8 @@ export default class LoginFormAuthorization extends Vue {
     }
     try {
       this.loading = true
-      const tokenTable = await this.identityService.signIn(this.signInRequest)
+      const signInRequest = new SignInRequest(this.loginOrEmail, this.password, this.codeTFA)
+      const tokenTable = await this.identityService.signIn(signInRequest)
       this.loading = false
       this.success(tokenTable)
     } catch (e) {

@@ -11,7 +11,7 @@ export class WordTable extends SentenceTable implements IWordTable {
     sentence: string,
     from: string,
     to: string,
-    categories: ICategoryTable[],
+    category: ICategoryTable,
     languagesPair: ILanguageTable,
     transcription: string,
     createdAt: Date,
@@ -20,7 +20,7 @@ export class WordTable extends SentenceTable implements IWordTable {
     super(
       from,
       to,
-      categories,
+      category,
       languagesPair,
       transcription,
       createdAt,

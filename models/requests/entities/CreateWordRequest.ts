@@ -6,13 +6,13 @@ export class CreateWordRequest extends CreateSentenceRequest implements ICreateW
   constructor (
     sentence: string,
     guidLanguagesPair: string,
-    guidCategories: string[],
+    guidCategory: string,
     from: string,
     to: string,
     transcription: string) {
     super(
       guidLanguagesPair,
-      guidCategories,
+      guidCategory,
       from,
       to,
       transcription

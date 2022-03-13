@@ -6,6 +6,6 @@ export interface ISentenceTable extends IBaseTable {
   from: string
   to: string
   transcription: string
-  categories: ICategoryTable[]
+  category: ICategoryTable
   languagesPair: ILanguageTable
 }

@@ -7,12 +7,10 @@
 </template>
 
 <script lang="ts">
-import { Component, Inject, Vue } from 'nuxt-property-decorator'
+import { Component, Vue } from 'nuxt-property-decorator'
 import LoginFormAuthorization from '~/components/authorization/forms/LoginForm.vue'
 import { TokenTable } from '~/models/Tables/entities/TokenTable'
 import { authStore } from '~/utils/store-accessor'
-import { ServiceEnum } from '~/models/enums/ServiceEnum'
-import { IIdentityService } from '~/services/IIdentityService'
 import { Middlewares } from '~/constants/middlewares'
 
 @Component({
@@ -21,9 +19,6 @@ import { Middlewares } from '~/constants/middlewares'
   middleware: [Middlewares.CHECK_GUEST]
 })
 export default class LoginAuthorizationPage extends Vue {
-  @Inject(ServiceEnum.Identity)
-  readonly identityService!: IIdentityService
-
   async onSuccessRegister (tokenTable: TokenTable): Promise<void> {
     authStore.setToken(tokenTable.token)
     try {
